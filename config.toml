@@ -1,6 +1,6 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-defaultContentLanguage = "en"
+baseURL = 'https://www.coworking-hahnheim.de/'
+languageCode = 'de-DE'
+defaultContentLanguage = "de"
 
 # This is a "one page"-website, so we do not need these kinds of pages...
 disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
@@ -20,7 +20,7 @@ title = "Coworking Hahnheim - Das etwas andere Gemeinschaftsbüro"
     description = "Coworking Hahnheim"
 
     # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
-    favicon = "images/favicon.png"
+    favicon = "static/images/favicon/favicon.png"
 
     # These "images" are used for the structured data templates. This will show up, when
     # services like Twitter or Slack want to generate a preview of a link to your site.
