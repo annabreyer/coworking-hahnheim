@@ -1,0 +1,30 @@
+:root {
+    /* fruit palette */
+    --POMEGRANATE: #D90057;
+    --LIGHT-PINK: #FF8C93;
+    --GRAPEFRUIT:#FDCCC0;
+    --LEMON: #F2C743;
+    --light-lemon: #FBEEC6;
+    --GREEN-MANGO: #95A00D;
+    --PINEAPPLE-LEAF: #3D5E68;
+    --WHITE: #FFF;
+    --blue: #033141;
+    --middle-blue: #007FBD;
+    --light-blue: #5BC7E1;
+    --orange: #F88810;
+    --pink: #C901A1;
+    --purple: #710B79;
+
+    --dark-background: var(--blue);
+    --light-color: var(--light-lemon);
+
+    --light-background: var(--GRAPEFRUIT);
+    --dark-font-color: var(--PINEAPPLE-LEAF);
+
+    --navigation-color: var(--POMEGRANATE);
+    --navigation-color-lighter-shade: var(--GRAPEFRUIT);
+    --navigation-color-secondary: var(--purple);
+
+    --secondary-light-color: var(--GRAPEFRUIT);
+    --secondary-dark-color: var(--GREEN-MANGO);
+}
