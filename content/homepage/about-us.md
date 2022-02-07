@@ -1,10 +1,8 @@
 ---
-title: "About Us"
-weight: 1
+title: "Über uns"
+weight: 3
 header_menu: true
 ---
-
-Über uns 
 
 Coworking Hahnheim ist aus dem Wunsch entstanden nicht mehr alleine im Homeoffice zu sitzen. 
 

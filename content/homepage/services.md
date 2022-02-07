@@ -1,37 +1,18 @@
 ---
-title: "Services"
+title: "Was wir bieten"
 weight: 2
 header_menu: true
 ---
 
-That is the important part, right? You want to know what I can do for you. This is why I put this right up there into the header menu of the website.
+Unser Motto ist „Arbeiten wie im Wohnzimmer“. Gemütlichkeit ist unser Leitfaden.
+Statt ergonomischer Bürostühle gibt es bei uns Sessel mit Kissen.
+Und zur Abwechslung entweder Steh-Schreibtisch oder Sitzbälle.
 
----
+Wenn es mal etwas anderes als der Schreibtisch sein soll läd unsere Lounge Ecke zum gemütlichen Sitzen ein. 
+Sie ist auch zum Entspannen, zum Kopf-frei-machen da. Bücher, Zeitschriften und Malbücher helfen mal abzuschalten. 
+Und da man auch manchmal in Ruhe telefonieren muss gibt es die schalldichte Telefonkabine.
 
-## Nutrition Coaching
+In der großen Essküche gibt es Kaffee, verschiedene Sorten Tee und einen Sodastream, sowie einen Kühlschrank für selbst mitgebrachte Getränke und Essen. 
+Und im Sommer kann man auch mal draussen sitzen. 
 
-This is not an easy task. You will likely have to pay money for this. You know what - let us look at a nice picture first.
-
-![Nice picture to make you pay me ;-)](images/selective-focus-photography-of-pasta-with-tomato-and-basil-1279330.jpg)
-
-Wow. That was nice, right? Well, call me and let us talk.
-
----
-
-## Chef Consulting
-
-Did you see the picture above? I can show you how to go from
-
-![Let us get started on a clean slate](images/board-bunch-cooking-food-349609.jpg)
-
-to
-
-![Let us get started on a clean slate](images/woman-pouring-juice-on-glass-3184192.jpg)
-
-in estimated seconds.
-
----
-
-Want to learn more about my services?
-
-Check out [this page](services) I created. It carries a lot more details...
+![Nice picture to make you pay me ;-)](images/workplace.jpg)

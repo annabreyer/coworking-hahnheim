@@ -1,24 +1,58 @@
 /*! copied from the Hugo scroll Theme,
-kept opnly the color definitions in order to change them */
+kept only the color definitions in order to change them */
 
-/* ==========================================================================
-   0. Includes - Ground zero
-   ========================================================================== */
-
-@import url(normalize.css);
+/*
+font-family: 'Amaranth', sans-serif;
+font-family: 'Grandstander', cursive;
+font-family: 'Josefin Slab', serif;
+font-family: 'Klee One', cursive;
+ */
 
 /* ==========================================================================
       2. General - Setting up some base styles
       ========================================================================== */
+:root {--main-police : 'Grandstander', cursive}
 
 body {
-  height: 100%;
-  max-height: 100%;
-  /*font-family: 'Droid Serif', serif;*/
-  font-family: "Roboto Slab", serif;
-  font-size: 2rem;
-  line-height: 1.6em;
-  color: #3a4145;
+    font-family: var(--main-police);
+    color: #3a4145;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-rendering: optimizeLegibility;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: var(--main-police);
+}
+h3,
+h4,
+h5,
+h6 {
+    text-rendering: optimizeLegibility;
+    line-height: 120%;
+    margin-top: 0;
+    font-family: var(--main-police);
+    margin-bottom: 0%;
+}
+
+.fixed-nav {
+    display: none;
+    opacity: 1;
+    position: fixed;
+    top: 40px;
+    left: 2%;
+    z-index: 99999;
+    font-family: var(--main-police);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    line-height: 130%;
+    font-weight: bold;
 }
 
 ::-moz-selection {
@@ -37,23 +71,23 @@ a:hover {
 }
 
 a.btn {
-  text-decoration: none;
-  background-color: #9fd067;
-  border-radius: 6px;
-  -webkit-border-radius: 6px;
-  color: white;
-  display: inline-block;
-  font-size: 16px;
-  letter-spacing: 1px;
-  margin: 0;
-  overflow: visible;
-  padding: 10px 20px 10px 20px;
-  position: relative;
-  margin-top: 2rem;
-  cursor: pointer;
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
-  font-weight: lighter;
+    text-decoration: none;
+    background-color: #9fd067;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0;
+    overflow: visible;
+    padding: 10px 20px 10px 20px;
+    position: relative;
+    margin-top: 2rem;
+    cursor: pointer;
+    font-family: var(--main-police);
+    text-transform: uppercase;
+    font-weight: lighter;
 }
 
 a.btn:hover {
@@ -286,7 +320,7 @@ a.fn-item.active {
   width: 80%;
   max-width: 700px;
   margin: 4rem auto;
-  font-family: "Open Sans", sans-serif;
+    font-family: var(--main-police);
   font-size: 1.3rem;
   color: #9eabb3;
   text-align: center;
@@ -321,7 +355,7 @@ a.fn-item.active {
   position: relative;
   margin: 0rem 0 0 0;
   padding: 1rem 0;
-  font-family: "Open Sans", sans-serif;
+    font-family: var(--main-police);
   font-size: 1.3rem;
   line-height: 1.5em;
   color: #bbc7cc;
