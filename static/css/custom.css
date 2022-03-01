@@ -10,8 +10,42 @@ font-family: 'Klee One', cursive;
 
 /* ==========================================================================
       2. General - Setting up some base styles
-      ========================================================================== */
-:root {--main-police : 'Grandstander', cursive}
+   ========================================================================== */
+
+/* Import the fonts file*/
+@font-face {
+    font-family: "Aglaia Regular";
+    src:
+        url("../fonts/Aglaia/Aglaia.woff") format("woff"),
+        url("../fonts/Aglaia/Aglaia.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aglaia Hairline";
+    src:
+        url("../fonts/Aglaia/Aglaia Hairline.woff") format("woff"),
+        url("../fonts/Aglaia/Aglaia Hairline.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aglaia Heavy";
+    src:
+            url("../fonts/Aglaia/Aglaia Heavy.woff") format("woff"),
+            url("../fonts/Aglaia/Aglaia Heavy.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+:root {
+    --main-police : 'Aglaia Hairline', serif;
+    --heavy-police : 'Aglaia Heavy', serif;
+    --accent-police: 'Aglaia Regular', serif;
+}
 
 body {
     font-family: var(--main-police);
@@ -85,7 +119,7 @@ a.btn {
     position: relative;
     margin-top: 2rem;
     cursor: pointer;
-    font-family: var(--main-police);
+    font-family: var(--heavy-police);
     text-transform: uppercase;
     font-weight: lighter;
 }
@@ -227,6 +261,7 @@ table tbody > tr:nth-child(odd) > th {
   margin: 10px 0 10px 0;
   font-size: 5rem;
   letter-spacing: -1px;
+  font-family: var(--heavy-police);
 }
 
 .blog-description {
@@ -234,7 +269,7 @@ table tbody > tr:nth-child(odd) > th {
   font-size: 2.5rem;
   line-height: 1.5em;
   font-weight: 400;
-  font-family: "Roboto Slab", serif;
+  font-family: var(--accent-police);
   letter-spacing: 0;
 }
 
@@ -388,7 +423,7 @@ a.fn-item.active {
   transition: box-shadow 0.5s;
 }
 
-/* The RSS icon, inserted via icon font */
+/* The RSS icon, inserted via icon fonts */
 .subscribe:before {
   color: #d2dee3;
   font-size: 10px;
