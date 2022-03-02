@@ -1,13 +1,6 @@
 /*! copied from the Hugo scroll Theme,
 kept only the color definitions in order to change them */
 
-/*
-font-family: 'Amaranth', sans-serif;
-font-family: 'Grandstander', cursive;
-font-family: 'Josefin Slab', serif;
-font-family: 'Klee One', cursive;
- */
-
 /* ==========================================================================
       2. General - Setting up some base styles
    ========================================================================== */
@@ -41,15 +34,52 @@ font-family: 'Klee One', cursive;
 }
 
 
+
+
 :root {
-    --main-police : 'Aglaia Hairline', serif;
-    --heavy-police : 'Aglaia Heavy', serif;
+    --main-police: 'Aglaia Hairline', serif;
+    --heavy-police: 'Aglaia Heavy', serif;
     --accent-police: 'Aglaia Regular', serif;
+
+    --brand-dark: #526F76;
+    --brand-dark-darker: #3F565C;
+    --brand-light: #E6CDCC;
+    --accent-color-cold: #B5CACD;
+    --accent-color-cold-lighter: #C8DFE3;
+    --accent-color-neutral: #B59F3B;
+    --accent-color-neutral-darker: #8F7D2F;
+    --accent-color-warm: #F3E2D4;
+
+    --dark-text: var(--brand-dark-darker);
+
+    /* Depending on picture*/
+    --title-color:var(--brand-light);
+    --subtitle-color: var(--brand-light);
+    --header-background: var(--accent-color-cold);
+
+    /* the different text sections */
+    --post-holder: var(--accent-color-warm);
+    --post-holder-odd: var(--accent-color-cold-lighter);
+    --post-holder-odd-text: var(--brand-dark);
+
+    /* side menu */
+    --menu-item: var(--brand-dark);
+    --menu-item-active:var(--brand-dark-darker);
+
+    /* Buttons */
+    --btn-color: var(--brand-dark);
+    --btn-color-hover: var(--brand-dark-darker);
+    --btn-color-text: var(--brand-light);
+
+    /* TODO see if its pretty, otherwise use blush */
+    --link-color: var(--accent-color-neutral);
+    --link-hover-color: var(--accent-color-neutral-darker);
 }
 
 body {
     font-family: var(--main-police);
-    color: #3a4145;
+    color: var(--dark-text);
+    font-weight: 900;
 }
 
 h1,
@@ -63,6 +93,7 @@ h6 {
     margin-top: 0;
     margin-bottom: 10px;
     font-family: var(--main-police);
+    font-weight: bolder;
 }
 h3,
 h4,
@@ -82,10 +113,10 @@ h6 {
     top: 40px;
     left: 2%;
     z-index: 99999;
-    font-family: var(--main-police);
+    font-family: var(--heavy-police);
     text-transform: uppercase;
-    font-size: 1.5rem;
-    line-height: 130%;
+    font-size: 2rem;
+    line-height: 150%;
     font-weight: bold;
 }
 
@@ -101,15 +132,15 @@ h6 {
   text-shadow: none;
 }
 a:hover {
-  color: #86c440;
+  color: var(--link-color);
 }
 
 a.btn {
     text-decoration: none;
-    background-color: #9fd067;
+    background-color: var(--btn-color);
     border-radius: 6px;
     -webkit-border-radius: 6px;
-    color: white;
+    color: var(--btn-color-text);
     display: inline-block;
     font-size: 16px;
     letter-spacing: 1px;
@@ -125,7 +156,7 @@ a.btn {
 }
 
 a.btn:hover {
-  background: #86c440;
+  background: var(--btn-color-hover);
 }
 
 hr {
@@ -136,7 +167,6 @@ hr {
   margin: 3.2em 0;
   padding: 0;
 }
-
 
 blockquote small {
   display: inline-block;
@@ -230,8 +260,8 @@ table tbody > tr:nth-child(odd) > th {
   height: 100%;
   margin-bottom: 0rem;
   text-align: center;
-  color: #fff;
-  background: #b80135 no-repeat center center;
+  color: var(--title-color);
+  background: var(--header-background) no-repeat center center;
   background-size: cover;
 }
 
@@ -273,25 +303,31 @@ table tbody > tr:nth-child(odd) > th {
   letter-spacing: 0;
 }
 
+.post {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    font-weight: 900;
+}
+
 .post-holder {
   width: 100%;
   height: 100%;
-  background: #f2efe8;
+  background: var(--post-holder);
   position: relative;
 }
 .post-holder.odd {
-  background: #b80135;
-  color: white;
+  background: var(--post-holder-odd);
+  color: var(--post-holder-odd-text);
 }
 
 .white {
   color: white;
 }
 a.fn-item:hover {
-  color: #9fd067;
+  color: var(--menu-item);
 }
 a.fn-item.active {
-  color: #86c440;
+  color: var(--menu-item-active);
   opacity: 1;
 }
 
@@ -304,7 +340,7 @@ a.fn-item.active {
   height: 0;
   border-left: 60px solid transparent;
   border-right: 60px solid transparent;
-  border-top: 50px solid #f2efe8;
+  border-top: 50px solid var(--post-holder);
   border-radius: 25px;
 }
 .post-meta {
