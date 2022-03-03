@@ -5,75 +5,35 @@ kept only the color definitions in order to change them */
       2. General - Setting up some base styles
    ========================================================================== */
 
-/* Import the fonts file*/
-@font-face {
-    font-family: "Aglaia Regular";
-    src:
-        url("../fonts/Aglaia/Aglaia.woff") format("woff"),
-        url("../fonts/Aglaia/Aglaia.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Aglaia Hairline";
-    src:
-        url("../fonts/Aglaia/Aglaia Hairline.woff") format("woff"),
-        url("../fonts/Aglaia/Aglaia Hairline.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Aglaia Heavy";
-    src:
-            url("../fonts/Aglaia/Aglaia Heavy.woff") format("woff"),
-            url("../fonts/Aglaia/Aglaia Heavy.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-
+@import url(brandfont.css);
+@import url(brandcolors.css);
 
 :root {
-    --main-police: 'Aglaia Hairline', serif;
-    --heavy-police: 'Aglaia Heavy', serif;
-    --accent-police: 'Aglaia Regular', serif;
 
-    --brand-dark: #526F76;
-    --brand-dark-darker: #3F565C;
-    --brand-light: #E6CDCC;
-    --accent-color-cold: #B5CACD;
-    --accent-color-cold-lighter: #C8DFE3;
-    --accent-color-neutral: #B59F3B;
-    --accent-color-neutral-darker: #8F7D2F;
-    --accent-color-warm: #F3E2D4;
+/* The different sections on the main page */
+    --post-holder: var(--dust-storm-tint-6);
+    --dark-text: var(--dark-electric-blue-shade-3);
 
-    --dark-text: var(--brand-dark-darker);
-
-    /* Depending on picture*/
-    --title-color:var(--brand-light);
-    --subtitle-color: var(--brand-light);
-    --header-background: var(--accent-color-cold);
-
-    /* the different text sections */
-    --post-holder: var(--accent-color-warm);
-    --post-holder-odd: var(--accent-color-cold-lighter);
-    --post-holder-odd-text: var(--brand-dark);
+    --post-holder-odd: var(--dark-electric-blue-tint-8);
+    --odd-text: var(--dust-storm-shade-5);
 
     /* side menu */
-    --menu-item: var(--brand-dark);
-    --menu-item-active:var(--brand-dark-darker);
+    --menu-item: var(--dark-electric-blue);
+    --menu-item-active:var(--silver-pink);
 
     /* Buttons */
-    --btn-color: var(--brand-dark);
-    --btn-color-hover: var(--brand-dark-darker);
-    --btn-color-text: var(--brand-light);
+    --btn-color: var(--sunray-tint-1);
+    --btn-color-hover: var(--sunray-shade-1);
+    --btn-color-text: var(--sunray-tone-8);
 
-    /* TODO see if its pretty, otherwise use blush */
-    --link-color: var(--accent-color-neutral);
-    --link-hover-color: var(--accent-color-neutral-darker);
+    --link-color: var(--silver-pink);
+    --link-hover-color: var(--silver-pink-shade-5);
+
+    /* Depending on picture*/
+    --title-color:var(--silver-pink);
+    --subtitle-color: var(--silver-pink);
+    --header-background: var(--accent-color-cold);
+
 }
 
 body {
@@ -88,31 +48,16 @@ h3,
 h4,
 h5,
 h6 {
-    text-rendering: optimizeLegibility;
-    line-height: 1;
-    margin-top: 0;
-    margin-bottom: 10px;
     font-family: var(--main-police);
-    font-weight: bolder;
 }
 h3,
 h4,
 h5,
 h6 {
-    text-rendering: optimizeLegibility;
-    line-height: 120%;
-    margin-top: 0;
     font-family: var(--main-police);
-    margin-bottom: 0%;
 }
 
 .fixed-nav {
-    display: none;
-    opacity: 1;
-    position: fixed;
-    top: 40px;
-    left: 2%;
-    z-index: 99999;
     font-family: var(--heavy-police);
     text-transform: uppercase;
     font-size: 2rem;
@@ -121,35 +66,23 @@ h6 {
 }
 
 ::-moz-selection {
-  color: #222;
-  background: #d6edff;
-  text-shadow: none;
+    color: var(--dark-electric-blue-shade-7);
+    background: var(--dark-electric-blue-tint-8);
+    text-shadow: none;
 }
 
 ::selection {
-  color: #222;
-  background: #d6edff;
-  text-shadow: none;
+    color: var(--dark-electric-blue-shade-7);
+    background: var(--dark-electric-blue-tint-8);
+    text-shadow: none;
 }
 a:hover {
   color: var(--link-color);
 }
 
 a.btn {
-    text-decoration: none;
     background-color: var(--btn-color);
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
     color: var(--btn-color-text);
-    display: inline-block;
-    font-size: 16px;
-    letter-spacing: 1px;
-    margin: 0;
-    overflow: visible;
-    padding: 10px 20px 10px 20px;
-    position: relative;
-    margin-top: 2rem;
-    cursor: pointer;
     font-family: var(--heavy-police);
     text-transform: uppercase;
     font-weight: lighter;
@@ -160,64 +93,11 @@ a.btn:hover {
 }
 
 hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #efefef;
-  margin: 3.2em 0;
-  padding: 0;
-}
-
-blockquote small {
-  display: inline-block;
-  margin: 0.8em 0 0.8em 1.5em;
-  font-size: 0.9em;
-  color: #ccc;
+  border-top: 1px solid var(--silver-pink);
 }
 
 mark {
-  background-color: #ffc336;
-}
-
-code,
-tt {
-  padding: 3px 5px;
-  font-family: Inconsolata, monospace, sans-serif;
-  font-size: 0.75em;
-  /*white-space: pre;*/
-  border: 1px solid #e3edf3;
-  background: #f7fafb;
-  border-radius: 2px;
-  color: #3a4145;
-}
-
-pre {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 1.6em 0;
-  border: 1px solid #e3edf3;
-  width: 100%;
-  padding: 10px;
-  font-family: Inconsolata, monospace, sans-serif;
-  font-size: 0.9em;
-  white-space: pre;
-  overflow: auto;
-  background: #f7fafb;
-  border-radius: 3px;
-}
-
-kbd {
-  display: inline-block;
-  margin-bottom: 0.4em;
-  padding: 1px 8px;
-  border: #ccc 1px solid;
-  color: #666;
-  text-shadow: #fff 0 1px 0;
-  font-size: 0.9em;
-  font-weight: bold;
-  background: #f4f4f4;
-  border-radius: 4px;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 #fff inset;
+  background-color: var(--sunray);
 }
 
 
@@ -317,7 +197,7 @@ table tbody > tr:nth-child(odd) > th {
 }
 .post-holder.odd {
   background: var(--post-holder-odd);
-  color: var(--post-holder-odd-text);
+  color: var(--odd-text);
 }
 
 .white {

@@ -1,0 +1,33 @@
+/* Import the fonts file*/
+@font-face {
+    font-family: "Aglaia Regular";
+    src:
+            url("../fonts/Aglaia/Aglaia.woff") format("woff"),
+            url("../fonts/Aglaia/Aglaia.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aglaia Hairline";
+    src:
+            url("../fonts/Aglaia/Aglaia Hairline.woff") format("woff"),
+            url("../fonts/Aglaia/Aglaia Hairline.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aglaia Heavy";
+    src:
+            url("../fonts/Aglaia/Aglaia Heavy.woff") format("woff"),
+            url("../fonts/Aglaia/Aglaia Heavy.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --main-police: 'Aglaia Hairline', serif;
+    --heavy-police: 'Aglaia Heavy', serif;
+    --accent-police: 'Aglaia Regular', serif;
+}
