@@ -1,0 +1,10 @@
+<footer class="site-footer">
+    <div class="inner">
+        <section>
+            <a href="/impressum" target="_blank">Impressum</a>
+        </section>
+        {{ with .Site.Params.copyright }}
+        <section class="copyright">{{ . | markdownify }}</section>
+        {{ end }}
+    </div>
+</footer>

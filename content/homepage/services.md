@@ -7,12 +7,13 @@ header_menu: true
 Unser Motto ist „Arbeiten wie im Wohnzimmer“. Gemütlichkeit ist unser Leitfaden.
 Statt ergonomischer Bürostühle gibt es bei uns Sessel mit Kissen.
 Und zur Abwechslung entweder Steh-Schreibtisch oder Sitzbälle.
+Grosse Fenster und Tageslichtlampen sorgen für eine helle Arbeitsumgebung. 
 
-Wenn es mal etwas anderes als der Schreibtisch sein soll läd unsere Lounge Ecke zum gemütlichen Sitzen ein. 
-Sie ist auch zum Entspannen, zum Kopf-frei-machen da. Bücher, Zeitschriften und Malbücher helfen mal abzuschalten. 
-Und da man auch manchmal in Ruhe telefonieren muss gibt es die schalldichte Telefonkabine.
+Wenn es mal etwas anderes als der Schreibtisch sein soll, läd unsere Lounge Ecke zum gemütlichen Sitzen ein. 
+Sie ist auch zum Entspannen, zum Kopf-frei-machen da. Bücher, Zeitschriften und Malbücher helfen abzuschalten. 
 
-In der großen Essküche gibt es Kaffee, verschiedene Sorten Tee und einen Sodastream, sowie einen Kühlschrank für selbst mitgebrachte Getränke und Essen. 
-Und im Sommer kann man auch mal draussen sitzen. 
+In der großen Essküche gibt es Wasser, Kaffee, verschiedene Sorten Tee, sowie einen Kühlschrank für selbst mitgebrachte Getränke und Essen. 
+Das Wasser kommt aus dem Hahn, und zwar gefiltert und aufbereitet von [TRUU](https://www.truu.com/truu-water/produkte/ "TRUU"). 
+Und für das Sprudeln sorgt ein Sodastream. 
 
-![Nice picture to make you pay me ;-)](images/workplace.jpg)
+![Arbeitsplatz](images/Workplace-2530.jpg)
