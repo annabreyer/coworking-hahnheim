@@ -32,7 +32,7 @@ kept only the color definitions in order to change them */
     /* Depending on picture*/
     --title-color:var(--silver-pink);
     --subtitle-color: var(--silver-pink);
-    --header-background: var(--accent-color-cold);
+    --header-background: var(--dust-storm-shade-5);
 
 }
 

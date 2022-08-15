@@ -4,7 +4,7 @@ url: "/impressum"
 ---
 **Angaben gemäß § 5 TMG**
 
-CoWorking Hahnheim  
+Coworking Hahnheim  
 Bahnhofstr. 9  
 55278 Hahnheim  
 Deutschland  

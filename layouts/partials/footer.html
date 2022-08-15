@@ -4,7 +4,7 @@
             <a href="/impressum" target="_blank">Impressum</a>
         </section>
         {{ with .Site.Params.copyright }}
-        <section class="copyright">{{ . | markdownify }}</section>
+            <section class="copyright">{{ . | markdownify }} {{ now.Year }}</section>
         {{ end }}
     </div>
 </footer>
