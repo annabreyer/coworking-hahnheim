@@ -22,9 +22,9 @@ kept only the color definitions in order to change them */
     --menu-item-active:var(--silver-pink);
 
     /* Buttons */
-    --btn-color: var(--sunray-tint-1);
+    --btn-color: var(--sunray-tint-3);
     --btn-color-hover: var(--sunray-shade-1);
-    --btn-color-text: var(--sunray-tone-8);
+    --btn-color-text: var(--dark-electric-blue-shade-3);
 
     --link-color: var(--silver-pink);
     --link-hover-color: var(--silver-pink-shade-5);
@@ -131,6 +131,13 @@ table tbody > tr:nth-child(odd) > th {
 /* ==========================================================================
       4. General - The main styles for the the theme
       ========================================================================== */
+
+#side-header-title-button {
+    background: var(--dark-text);
+    opacity: 0.9;
+    padding: 30px;
+    border-radius: 20px;
+}
 
 /* Big cover image on the home page */
 #site-head {
