@@ -58,6 +58,12 @@ body > main > article > header {
     margin: 30px;
 }
 
+blockquote p {
+    margin: 0.8em 0;
+    font-family: var(--accent-police);
+    font-size: 2.5rem;
+}
+
 /* ==========================================================================
       2. General - Setting up some base styles
    ========================================================================== */

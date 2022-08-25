@@ -13,12 +13,14 @@ Und wenn es mal etwas anderes als der Schreibtisch sein soll, läd unsere Lounge
 Hängekorb zum entspannten Arbeiten ein. 
 Sie ist auch zum Chillen, Kopf-frei-machen oder einfach nur Geniessen da.
 
-In der großen Essküche gibt es Wasser, Bio-Kaffee {{<icon class="fa fa-coffee">}} und verschiedene Sorten Bio-Tee  {{<icon class="fa fa-gitea">}}.
+In der großen Essküche gibt es Wasser, leckeren Bio-Kaffee {{<icon class="fa fa-coffee">}} und verschiedene Sorten Bio-Tee  {{<icon class="fa fa-gitea">}}.
 Das Wasser kommt aus dem Hahn, und zwar gefiltert und aufbereitet von [TRUU](https://www.truu.com/truu-water/produkte/ "TRUU"). 
 Und für das Sprudeln sorgt ein Sodastream. 
 Ausserdem steht einen Kühlschrank für selbst mitgebrachte Getränke und Essen zur Verfügung.
 
+Und natürlich dürfen schnelles WLAN, Drucker, Scanner und Kopierer (fair use) nicht fehlen. 
+
 Buchen kannst Du einen Arbeitsplatz ganz flexibel, für einen ganzen oder einen halben Tag, einmal pro Woche, 
-drei Mal im Monat oder jeden Tag für mehrere Monate… 
+dreimal im Monat oder jeden Tag für mehrere Monate…
 
 ![Arbeitsplatz](images/Workplace-2560.jpg)
