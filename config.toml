@@ -9,15 +9,15 @@ disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
 theme = "hugo-scroll"
 
 # The "title" of your website
-title = "Coworking Hahnheim - Das etwas andere Gemeinschaftsbüro"
+title = "Ensemble Coworking"
 
 [params]
     # A "copyright"-line to be added at the bottom of the page.
     # Hint: Markdown is supported in here as well. So you may e.g. add a link to your legal imprint-page.
-    copyright = "© Anna Breyer"
+    copyright = "©Anna Breyer"
 
     # The "description" of your website. This is used in the meta data of your generated html.
-    description = "Coworking Hahnheim - Das etwas andere Gemeinschaftsbüro"
+    description = "Ensemble Coworking Hahnheim"
 
     # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
     favicon = "static/images/favicon/favicon.png"
@@ -26,12 +26,12 @@ title = "Coworking Hahnheim - Das etwas andere Gemeinschaftsbüro"
     # services like Twitter or Slack want to generate a preview of a link to your site.
     # See https://gohugo.io/templates/internal#twitter-cards and
     # https://gohugo.io/templates/internal#open-graph.
-    images = ["images/cover-image.jpg"]
+    images = ["images/logo/source.svg"]
 
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
     # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-    title = "Coworking Hahnheim - Das etwas andere Gemeinschaftsbüro"
+    title = "Ensemble Coworking Hahnheim"
 
     # This theme will, by default, inject a design-by-line at the bottom of the page.
     # You can turn it off, but we would really appreciate if you don’t :-)

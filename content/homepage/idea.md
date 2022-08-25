@@ -15,5 +15,6 @@ Wenn dabei noch geschäftliche Kollaborationen entstehen freuen wir uns natürli
 es geht uns allerdings in erster Linie um das menschliche Miteinander.
 
 Das heisst auch dass Du morgens im Büro die Kaffeemaschine anfeuerst und den Teekocher befüllst. 
-Dass wir abwechselnd mal die Spülmaschine ausräumen und dass jeder mal kurz Hand anlegt.
-Ein Schreibtisch bei uns ist keine anonyme Dienstleistung.
+Dass wir abwechselnd mal die Spülmaschine ausräumen und dass jeder mal kurz Hand anlegt damit es
+für alle schön gemütliche bleibt. 
+Den Besen oder Mop muss aber keiner schwingen. Geputzt wird alles natürlich von einer Fachkraft. 
