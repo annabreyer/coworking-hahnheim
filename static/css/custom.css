@@ -62,6 +62,10 @@ blockquote p {
     font-style: italic;
 }
 
+.ensemble{
+    font-family: var(--script-police);
+}
+
 
 /*!* ==========================================================================*/
 /*      2. General - Setting up some base styles*/

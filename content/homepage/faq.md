@@ -12,9 +12,9 @@ Ich bin Software Entwicklerin. Und begeisterte Katzenmama.
 
 ---
 
-### Woher kommt der Name Ensemble?
+### Woher kommt der Name {{<script >}}Ensemble {{</>}}?
 
-Ensemble ist französisch für gemeinsam. Es erinnert an meine Zeit in Frankreich und ist auch kein Fremdwort im Deutschen,
+{{<script >}}Ensemble {{</>}} ist französisch für gemeinsam. Es erinnert an meine Zeit in Frankreich und ist auch kein Fremdwort im Deutschen,
 auch wenn die Bedeutung eine etwas andere ist. 
 
 ---
@@ -45,7 +45,7 @@ Geplant sind zwischen 5 und 7 Schreibtischplätze.
 
 ### Kann ich einen festen Schreibtisch buchen?
 
-Im Ensemble gibt es nur flexibel zu nutzende Schreibtische.
+Im {{<script >}}Ensemble {{</>}} gibt es nur flexibel zu nutzende Schreibtische.
 Diese sind für niemanden reserviert und werden täglich neu vergeben.
 
 ---

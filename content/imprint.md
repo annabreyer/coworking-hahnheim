@@ -5,7 +5,7 @@ url: "/impressum"
 
 ##### Angaben gemäß § 5 TMG
 
-Ensemble
+{{<script >}}Ensemble {{</>}}
 Coworking Hahnheim  
 Bahnhofstr. 9  
 55278 Hahnheim  
