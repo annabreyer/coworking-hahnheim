@@ -64,6 +64,7 @@ blockquote p {
 
 .ensemble{
     font-family: var(--script-police);
+    font-variant: small-caps;
 }
 
 
