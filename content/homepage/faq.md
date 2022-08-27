@@ -52,7 +52,7 @@ Diese sind für niemanden reserviert und werden täglich neu vergeben.
 
 ### Muss ich monatlich buchen? 
 
-Natürlich nicht. Du kannst ganz flexibel entsprechend deinen Bedürfnissen buchen. Einen Tag, eine Woche, einen Monat, alles ist möglich. 
+Natürlich nicht. Du kannst ganz flexibel entsprechend deinen Bedürfnissen buchen.
 
 ---
 
@@ -62,7 +62,7 @@ Sobald die Lage etwas absehbarer ist, werden sie hier zu finden sein.
 
 ---
 
-### Was ist meine Arbeit viel Zeit am Telefon beinhaltet?  
+### Was ist wenn meine Arbeit viel Zeit am Telefon beinhaltet?  
 
 In dem Fall ist unser Coworking vielleicht nicht für Dich geeignet, denn wir haben nur einen Open Space. Für gelegentliche
 Telefonate gibt es den Vorraum und in absehbarer Zeit auch eine Telefonbox. 
