@@ -10,7 +10,7 @@ kept only the color definitions in order to change them */
     --post-holder: var(--dust-storm-tint-6);
     --dark-text: var(--dark-electric-blue-shade-3);
 
-    --post-holder-odd: var(--dark-electric-blue-tint-8);
+    --post-holder-odd: var(--dust-storm-tint-8);
     --odd-text: var(--dust-storm-shade-5);
 
     /* side menu */
@@ -124,7 +124,7 @@ a.btn:hover {
 }
 
 hr {
-    color: var(--sunray-tint-1);
+    color: var(--dark-electric-blue);
 }
 
 mark {
