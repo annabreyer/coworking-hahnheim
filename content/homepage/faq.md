@@ -12,7 +12,7 @@ Ich bin Software Entwicklerin. Und begeisterte Katzenmama.
 
 ---
 
-### Woher kommt der Name {{<span class="ensemble">}}Ensemble{{?span>}}?
+### Woher kommt der Name Ensemble?
 
 Ensemble ist französisch für gemeinsam. Es erinnert an meine Zeit in Frankreich und ist auch kein Fremdwort im Deutschen,
 auch wenn die Bedeutung eine etwas andere ist. 
