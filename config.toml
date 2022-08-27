@@ -1,4 +1,4 @@
-baseURL = 'https://coworking-hahnheim-de.onrender.com'
+baseURL = 'https://coworking-hahnheim.de'
 languageCode = 'de-DE'
 defaultContentLanguage = "de"
 enableInlineShortcodes = "true"
