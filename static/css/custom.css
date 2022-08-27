@@ -74,6 +74,8 @@ blockquote p {
 body {
     font-family: var(--main-police);
     color: var(--dark-text);
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 h1,
