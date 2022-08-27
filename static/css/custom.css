@@ -58,9 +58,10 @@ body > main > article > header {
 
 blockquote p {
     margin: 0.8em 0;
-    font-family: var(--accent-police);
-    font-size: 2.5rem;
+    font-family: var(--main-police);
+    font-style: italic;
 }
+
 
 /*!* ==========================================================================*/
 /*      2. General - Setting up some base styles*/
@@ -88,10 +89,9 @@ h6 {
 
 .fixed-nav {
     font-family: var(--accent-police);
-    text-transform: uppercase;
     font-size: 2.8rem;
-    line-height: 150%;
-    font-weight: bold;
+    font-variant: small-caps;
+    text-transform: none;
 }
 
 ::-moz-selection {
@@ -113,10 +113,10 @@ a:hover {
 a.btn {
     background-color: var(--btn-color);
     color: var(--btn-color-text);
-    font-family: var(--heavy-police);
-    text-transform: uppercase;
-    font-weight: lighter;
-    font-size: 2rem;
+    font-family: var(--accent-police);
+    font-size: 2.6rem;
+    font-variant: small-caps;
+    text-transform: none;
 }
 
 a.btn:hover {
@@ -124,11 +124,15 @@ a.btn:hover {
 }
 
 hr {
-    border-top: 1px solid var(--silver-pink);
+    color: var(--sunray-tint-1);
 }
 
 mark {
     background-color: var(--sunray);
+}
+
+#header-arrow {
+    color: var(--dark-electric-blue-shade-5);
 }
 
 
@@ -143,17 +147,19 @@ mark {
 }
 
 .blog-title {
-    font-family: var(--main-police);
+    font-family: var(--script-police);
+    font-size: 7rem;
+    font-variant: small-caps;
 }
 
 .blog-description {
-    font-family: var(--accent-police);
+    font-family: "MiamoLight";
+    font-size: 3.8rem;
 }
 
 .post {
     font-size: 1.1em;
     line-height: 1.6em;
-    font-weight: 900;
 }
 
 .post-holder {
@@ -167,11 +173,18 @@ mark {
 
 a.fn-item:hover {
     color: var(--menu-item);
+    background: var(--sunray-tint-1);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
 }
 
 a.fn-item.active {
     color: var(--menu-item-active);
     opacity: 1;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
 }
 
 .post-after {
@@ -193,4 +206,35 @@ a.fn-item.active {
 
 .site-footer a:hover {
     color: var(--silver-pink-shade-1);
+}
+
+@media only screen and (max-width: 1130px) {
+    .blog-title {
+        font-size: 6rem;
+        letter-spacing: -1px;
+    }
+
+    .blog-description {
+        font-size: 3rem;
+    }
+
+    a.btn {
+        font-size: 2.5rem;
+        padding: 5px 10px 5px 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .blog-title {
+        font-size: 3.2rem;
+    }
+
+    .blog-description {
+        font-size: 1.8rem;
+    }
+
+    a.btn {
+        font-size: 1.6rem;
+        padding: 5px 10px 5px 10px;
+    }
 }
