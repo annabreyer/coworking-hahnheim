@@ -229,6 +229,10 @@ a.fn-item.active {
         font-size: 2.5rem;
         padding: 5px 10px 5px 10px;
     }
+
+    body {
+        text-align: left;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -243,5 +247,9 @@ a.fn-item.active {
     a.btn {
         font-size: 1.6rem;
         padding: 5px 10px 5px 10px;
+    }
+
+    body {
+        text-align: left;
     }
 }
