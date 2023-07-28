@@ -14,7 +14,7 @@ Deutschland
 
 
 ### Kontakt:
-Telefon: folgt  
+Telefon: +49 174 5124442 
 E-Mail: info@coworking-hahnheim.de  
 www.coworking-hahnheim.de  
 
@@ -45,3 +45,11 @@ Alle auf dieser Website dargestellten Inhalte, wie Texte, Fotografien, Grafiken,
 
 ### Hinweise auf Rechtsverstöße:
 Sollten Sie innerhalb unseres Internetauftritts Rechtsverstöße bemerken, bitten wir Sie uns auf diese hinzuweisen. Wir werden rechtswidrige Inhalte und Links nach Kenntnisnahme unverzüglich entfernen.
+
+## Urheberrechte
+
+### Schrift
+Die auf dieser Webseite benutzen Schirften wurden von Pavel Larin designt. 
+
+### Logo
+Das auf dieser Webseite verwendete Logo wurde von Lélia Tahabik (Réalisatrice, Motion Designer) erstellt. 
