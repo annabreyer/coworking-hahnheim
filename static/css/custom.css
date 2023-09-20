@@ -63,8 +63,16 @@ blockquote p {
 }
 
 .ensemble{
-    font-family: var(--script-police);
-    font-variant: small-caps;
+    font-style: italic;
+}
+
+#blog-title-logo{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    height: 100px;
+    margin-top: -20px;
 }
 
 
@@ -132,6 +140,7 @@ a.btn:hover {
 
 hr {
     color: var(--dark-electric-blue);
+    margin: 1.2em;
 }
 
 mark {
@@ -154,14 +163,14 @@ mark {
 }
 
 .blog-title {
-    font-family: var(--script-police);
+    font-family: "MiamoLight";
     font-size: 7rem;
-    font-variant: small-caps;
 }
 
 .blog-description {
     font-family: "MiamoLight";
     font-size: 3.8rem;
+    margin-top: -20px;
 }
 
 .post {

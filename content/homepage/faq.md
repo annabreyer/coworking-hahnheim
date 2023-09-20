@@ -7,8 +7,9 @@ header_menu: true
 ### Wer steckt hinter Coworking Hahnheim? 
 
 Wir das bin ich, Anna. Ich bin nach 19 Jahren Frankreich (Normandie und Paris), zurück in meine Heimat Hahnheim gezogen. 
-Ich bin Software Entwicklerin. Und begeisterte Katzenmama. 
-![Annas Logo](images/logo/transparentNoir250px.png)
+Ich bin Software Entwicklerin, IT Choach und begeisterte Katzenmama. 
+![Anna Breyer](images/AnnaGelbPinkSitzend.jpeg)
+Foto von [Jasmin Metten Fotographie](https://jasmin-metten.de)
 
 ---
 

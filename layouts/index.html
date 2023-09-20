@@ -6,6 +6,7 @@
     <div class="vertical">
         <div id="site-head-content" class="inner">
             <div id="side-header-title-button" class="inner">
+                <div id="blog-title-logo" {{ with .Params.logo }}style="background-image: url({{ . }})"{{ end }}></div>
                 {{ with .Params.header_headline }}<h1 class="blog-title">{{ . }}</h1>{{ end }}
                 {{ with .Params.header_subheadline }}<h2 class="blog-description">{{ . }}</h2>{{ end }}
 

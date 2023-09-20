@@ -49,7 +49,7 @@ Sollten Sie innerhalb unseres Internetauftritts Rechtsverstöße bemerken, bitte
 ## Urheberrechte
 
 ### Schrift
-Die auf dieser Webseite benutzen Schirften wurden von Pavel Larin designt. 
+Die auf dieser Webseite benutzen Schriften wurden von Pavel Larin designt. 
 
 ### Logo
-Das auf dieser Webseite verwendete Logo wurde von Lélia Tahabik (Réalisatrice, Motion Designer) erstellt. 
+Das auf dieser Webseite verwendete Logo wurde von Lélia Tahabik (Réalisatrice, Motion Designer) erstellt.
