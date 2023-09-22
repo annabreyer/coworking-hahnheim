@@ -10,7 +10,7 @@ disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
 theme = "hugo-scroll"
 
 # The "title" of your website
-title = "Ensemble Coworking"
+title = "Coworking in Hahnheim"
 
 [params]
     # A "copyright"-line to be added at the bottom of the page.
@@ -39,4 +39,4 @@ title = "Ensemble Coworking"
     hidedesignbyline = true
 
     [params.meta]
-        keywords = "Coworking, Coworking Rheinhessen, Coworking Rhein-Selz, Coworking Hahnheim, Coworking Undenheim, Coworking Köngernheim, Coworking Zornherim"
+        keywords = "Coworking, Coworking Rheinhessen, Coworking Rhein-Selz, Coworking Hahnheim, Coworking Undenheim, Coworking Köngernheim, Coworking Zornheim"

@@ -44,6 +44,21 @@ kept only the color definitions in order to change them */
     border-radius: 20px;
 }
 
+#single-post-header-title {
+    background-image: radial-gradient(
+            var(--dark-electric-blue-shade-5),
+            var(--dark-electric-blue-shade-3),
+            var(--dark-electric-blue-shade-1));
+    opacity: 0.9;
+    padding: 30px;
+    border-radius: 20px;
+}
+#single-post-header-title a {
+    color: var(--link-color);
+    text-align: center;
+}
+
+
 img {
     border-radius: 30px;
 }
@@ -74,6 +89,16 @@ blockquote p {
     height: 100px;
     margin-top: -20px;
 }
+#single-post-title-logo{
+    background-image:url('/images/ensemble-logo-silverpink.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    height: 100px;
+    margin-top: -20px;
+}
+
 
 
 /*!* ==========================================================================*/
@@ -82,7 +107,7 @@ blockquote p {
 body {
     font-family: var(--main-police);
     color: var(--dark-text);
-    text-align: justify;
+    text-align: left;
     text-justify: inter-word;
 }
 
@@ -187,6 +212,14 @@ mark {
     color: var(--odd-text);
 }
 
+.post-template .post {
+    padding-bottom: 1rem;
+}
+
+.post-template .post-header {
+    padding: 40px 0;
+}
+
 a.fn-item:hover {
     color: var(--menu-item);
     background: var(--sunray-tint-1);
@@ -214,6 +247,18 @@ a.fn-item.active {
 .site-footer {
     font-family: var(--main-police);
     background: var(--dark-electric-blue);
+    .row{
+        .column {
+            float: left;
+            width: 33.33%;
+        }
+    }
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 }
 
 .site-footer a {
@@ -260,5 +305,12 @@ a.fn-item.active {
 
     body {
         text-align: left;
+    }
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
     }
 }

@@ -2,11 +2,14 @@
 <main class="content page-template page-{{ .Slug }}" role="main">
     <article class="post page">
         <header class="post-header">
-            <a href="{{ "/" | relURL }}">
-                <h1><i class="fa fa-angle-left"></i> {{ .Site.Title }}</h1>
-            </a>
+            <div id="single-post-head-content">
+                <div id="single-post-header-title">
+                    <div id="single-post-title-logo" ></div>
+                    {{ with .Params.header_headline }}<h1 class="blog-title">{{ . }}</h1>{{ end }}
+                    {{ with .Params.header_subheadline }}<h2 class="blog-description">{{ . }}</h2>{{ end }}
+                    <a href="{{ "/" | relURL }}"><h1> {{ .Site.Title }}</h1></a>
+                </div>
         </header>
-
         <h1 class="post-title">{{ .Title }}</h1>
         <section class="post-content">
             {{ .Content }}
