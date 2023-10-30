@@ -7,16 +7,9 @@ header_menu: true
 ### Wer steckt hinter Coworking Hahnheim? 
 
 Wir das bin ich, Anna. Ich bin nach 19 Jahren Frankreich (Normandie und Paris), zurück in meine Heimat Hahnheim gezogen. 
-Ich bin Software Entwicklerin, IT Choach und begeisterte Katzenmama. 
+Ich bin Software Entwicklerin, IT Coach und begeisterte Katzenmama. 
 ![Anna Breyer](images/AnnaGelbPinkSitzend.jpeg)
 Foto von [Jasmin Metten Fotographie](https://jasmin-metten.de)
-
----
-
-### Woher kommt der Name {{<script >}}Ensemble {{</>}}?
-
-{{<script >}}Ensemble {{</>}} ist französisch für gemeinsam. Es erinnert an meine Zeit in Frankreich und ist auch kein Fremdwort im Deutschen,
-auch wenn die Bedeutung eine etwas andere ist. 
 
 ---
 
@@ -38,9 +31,10 @@ Angestellte, Gründer, Selbstständige, Kreative, Pädagogen, Handwerker, Manage
 
 ---
 
-### Wie viele Plätze gibt es?
+### Was ist, wenn meine Arbeit viel Zeit am Telefon beinhaltet?
 
-Geplant sind zwischen 5 und 7 Schreibtischplätze. 
+In dem Fall ist unser Coworking vielleicht nicht für Dich geeignet, denn wir haben nur einen Open Space. Für gelegentliche
+Telefonate gibt es den Vorraum und in absehbarer Zeit auch eine Telefonbox.
 
 ---
 
@@ -57,21 +51,15 @@ Natürlich nicht. Du kannst ganz flexibel entsprechend deinen Bedürfnissen buch
 
 ---
 
-### Was kostet ein Schreibtisch?  
-Aufgrund der unsicheren Energieversorgung ist es momentan schwierig Preise festzulegen.
-Sobald die Lage etwas absehbarer ist, werden sie hier zu finden sein.
-
----
-
-### Was ist wenn meine Arbeit viel Zeit am Telefon beinhaltet?  
-
-In dem Fall ist unser Coworking vielleicht nicht für Dich geeignet, denn wir haben nur einen Open Space. Für gelegentliche
-Telefonate gibt es den Vorraum und in absehbarer Zeit auch eine Telefonbox. 
-
----
-
-### Was ist, wenn ich einen Bildschirm (Maus, Tastatur, etc. ) brauche?  
+### Was ist, wenn ich einen Bildschirm (Maus, Tastatur, etc.) brauche?  
 Dann sprich mich einfach an. 
+
+---
+
+### Woher kommt der Name {{<script >}}Ensemble {{</>}}?
+
+{{<script >}}Ensemble {{</>}} ist französisch für gemeinsam. Es erinnert an meine Zeit in Frankreich und ist auch kein Fremdwort im Deutschen,
+auch wenn die Bedeutung eine etwas andere ist.
 
 ---
 
