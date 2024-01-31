@@ -38,21 +38,33 @@ Telefonate gibt es den Vorraum und in absehbarer Zeit auch eine Telefonbox.
 
 ---
 
-### Kann ich einen festen Schreibtisch buchen?
+### Muss ich monatlich buchen? 
 
-Im {{<script >}}Ensemble {{</>}} gibt es nur flexibel zu nutzende Schreibtische.
-Diese sind für niemanden reserviert und werden täglich neu vergeben.
+Natürlich nicht. Du kannst ganz flexibel entsprechend Deinen Bedürfnissen buchen.
+Wir haben Tages- und Zehnerkarten. Solltest Du einen ganzen Monat buchen wollen, dann schreib mir eine E-mail.
 
 ---
 
-### Muss ich monatlich buchen? 
+### Was kostet das Coworking?
 
-Natürlich nicht. Du kannst ganz flexibel entsprechend deinen Bedürfnissen buchen.
+Tageskarte: 18€  
+10er Karte: 150€
+
+---
+
+### Wie kann ich buchen und bezahlen?
+
+Die Buchungsseite wird in Kürze online gehen. Darauf kannst Du die verfügbaren Plätze sehen und buchen.
+Bezahlen kannst Du per Überweisung oder Paypal. Leider kann ich keine Barzahlung anbieten.
 
 ---
 
 ### Was ist, wenn ich einen Bildschirm (Maus, Tastatur, etc.) brauche?  
-Dann sprich mich einfach an. 
+
+Es ist ein Bilschrirmarbeitsplatz vorhanden, den Du gerne punktuell nutzen kannst.
+Zudem ist kleine Auswahl an Zubehör im Haus.
+
+Bei besonderen Bedürfnissen, sprich mich gerne an und wir schauen, was ich für Dich tun kann.
 
 ---
 

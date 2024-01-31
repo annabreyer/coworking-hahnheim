@@ -2,27 +2,48 @@
 kept only the color definitions in order to change them */
 
 @import url(brandfont.css);
-@import url(brandcolors.css);
 
 :root {
+    --body-color: #fef9e7;
+    --primary-color: #f5c40e;
+    --secondary-color: #8C0343;
+    --text-color: #ac890a;
+    --text-color-dark: #460222;
+    --dark-gray: #38011b;
+
+    /* originale Coworking colors */
+    --dark-electric-blue: #526F76;
+    --pastel-blue: #B5CACD;
+    --sunray: #D9AC59;
+    --silver-pink: #C7A9AE;
+    --dust-storm: #E6CDCC;
+
+    --dark-electric-blue-shade-1: #42595E;
+    --dark-electric-blue-shade-3: #314347;
+    --dark-electric-blue-shade-5: #212C2F;
+
+    --sunray-tint-3: #E8CD9B;
+    --sunray-shade-1: #AE8A47;
+    --silver-pink-shade-1: #9F878B;
+    --silver-pink-shade-5: #504446;
 
     /* The different sections on the main page */
-    --post-holder: var(--dust-storm-tint-6);
-    --dark-text: var(--dark-electric-blue-shade-3);
+    --post-holder: var(--secondary-color);
+    --dark-text: var(--body-color);
 
-    --post-holder-odd: var(--dust-storm-tint-8);
-    --odd-text: var(--dust-storm-shade-5);
+    --post-holder-odd: var(--body-color);
+    --odd-text: var(--dark-gray);
 
     /* side menu */
-    --menu-item: var(--dark-electric-blue);
-    --menu-item-active: var(--silver-pink);
+    --menu-item: var(--sunray);
+    --menu-item-active: var(--primary-color);
 
     /* Buttons */
     --btn-color: var(--sunray-tint-3);
     --btn-color-hover: var(--sunray-shade-1);
     --btn-color-text: var(--dark-electric-blue-shade-3);
 
-    --link-color: var(--silver-pink);
+    --link-color: var(--text-color);
     --link-hover-color: var(--silver-pink-shade-5);
 
     --title-color: var(--silver-pink);
@@ -57,6 +78,7 @@ kept only the color definitions in order to change them */
     color: var(--link-color);
     text-align: center;
 }
+
 
 
 img {
@@ -135,14 +157,14 @@ h6 {
 }
 
 ::-moz-selection {
-    color: var(--dark-electric-blue-shade-7);
-    background: var(--dark-electric-blue-tint-8);
+    color: var(--dark-gray);
+    background: var(--silver-pink);
     text-shadow: none;
 }
 
 ::selection {
-    color: var(--dark-electric-blue-shade-7);
-    background: var(--dark-electric-blue-tint-8);
+    color: var(--dark-gray);
+    background: var(--silver-pink);
     text-shadow: none;
 }
 
@@ -164,7 +186,7 @@ a.btn:hover {
 }
 
 hr {
-    color: var(--dark-electric-blue);
+    color: var(--primary-color);
     margin: 1.2em;
 }
 
@@ -220,9 +242,17 @@ mark {
     padding: 40px 0;
 }
 
+.fn-item {
+    color: var(--menu-item);
+    background-color: var(--dark-electric-blue-shade-3);
+    opacity: 0.8;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+}
+
 a.fn-item:hover {
     color: var(--menu-item);
-    background: var(--sunray-tint-1);
+    background: var(--dark-electric-blue-shade-5);
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
     margin: 5px;
