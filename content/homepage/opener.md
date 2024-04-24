@@ -4,7 +4,9 @@ weight: 1
 ---
 
 Schön, dass Du da bist. 
-Unser kleiner, aber feiner, Coworking-Space ist noch im Aufbau und wird 2024 in einem schönen kernsanierten 100-jährigem Haus
-in der Bahnhofstrasse an den Start gehen.
+Nach jahrelangen Arbeiten sind wir nun im Endspurt und unser kleiner aber feiner Coworking-Space wird im Sommer
+(voraussichtlich Mitte August) eröffnen.
+Ab Mai kannst Du gerne in der Bahnhofstr. 9 vorbeikommen und Dir ein Bild von unserem Space machen.
+Ich freue mich auf Deinen Besuch!
 
-![Coming Soon](images/2024.svg)
+![Coming Soon](images/Sommer-2024.svg)

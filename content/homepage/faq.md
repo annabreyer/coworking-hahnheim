@@ -42,8 +42,7 @@ Telefonate gibt es den Vorraum und in absehbarer Zeit auch eine Telefonbox.
 
 Geplant sind aktuell: 
 - 1 4er-Tisch
-- 1 Bilschrirmarbeitsplatz
-- 1 Stehschreibtisch
+- 1 Bildschirm-Arbeitsplatz
 ---
 
 #### Muss ich monatlich buchen? 
@@ -69,7 +68,7 @@ Bezahlen kannst Du per Überweisung oder Paypal. Leider kann ich keine Barzahlun
 
 #### Was ist, wenn ich einen Bildschirm (Maus, Tastatur, etc.) brauche?  
 
-Es ist ein Bilschrirmarbeitsplatz vorhanden, den Du gerne punktuell nutzen kannst.
+Es ist ein Bildschirm-Arbeitsplatz vorhanden, den Du gerne punktuell nutzen kannst.
 Zudem ist kleine Auswahl an Zubehör im Haus.
 
 Bei besonderen Bedürfnissen, sprich mich gerne an und wir schauen, was ich für Dich tun kann.
@@ -85,4 +84,4 @@ auch wenn die Bedeutung eine etwas andere ist.
 
 #### Gibt es eine Warteliste?  
 
-Du kannst mir gerne eine E-mail schreiben und ich melde mich, sobald wir so weit sind. 
+Du kannst mir gerne eine E-Mail schreiben und ich melde mich, sobald wir so weit sind. 
