@@ -1,11 +1,12 @@
----
+`---
 title: "Coworking in der Nähe von Mommenheim"
 url: "/coworking-mommenheim"
 ---
 
 Schön, dass Du da bist.
-Unser kleiner, aber feiner, Coworking-Space in Hahnheim ist noch im Aufbau und wird 2024 in einem schönen, kernsanierten 100-jährigem Haus
-in der Bahnhofstrasse an den Start gehen.
+Unser kleiner, aber feiner Coworking-Space in Hahnheim geht im Sommer 2024 an den Start.
+Von Mommenheim ist er nur einen Katzensprung entfernt. Und das Beste: Du kannst auch mit dem Fahrrad kommen.
+(Eine Dusche ist vorhanden.)
 
 ### DER Vorteil des Coworkings auf dem Land
 
@@ -25,4 +26,4 @@ sich der Natur zu nähern. Das kommt allerdings oft mit Mangel an sozialen Konta
 helfen, denn hier lernst Du Menschen aus der Umgebung kennen.
 
 ### Du möchtest mehr über unseren Coworking-Space erfahren?
-Dann geht es [hier](/) lang: 
+Dann geht es [hier](/) lang: `

@@ -4,8 +4,8 @@ url: "/coworking-zornheim"
 ---
 
 Schön, dass Du da bist.
-Unser kleiner, aber feiner, Coworking-Space in Hahnheim ist noch im Aufbau und wird 2024 in einem schönen, kernsanierten 100-jährigem Haus
-in der Bahnhofstrasse an den Start gehen.
+Unser kleiner, aber feiner Coworking-Space in Hahnheim geht im Sommer 2024 an den Start.
+Von Zornheim ist er nur einen Katzensprung entfernt.
 
 ### DER Vorteil des Coworkings auf dem Land
 
