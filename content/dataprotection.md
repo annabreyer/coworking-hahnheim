@@ -10,7 +10,7 @@ Bahnhofstr. 9
 55278 Hahnheim
 
 E-Mail-Adresse:  
-info@coworking-hahnheim.de
+office@coworking-hahnheim.de
 
 ### Übersicht der Verarbeitungen
 

@@ -10,3 +10,5 @@ Ab Mai kannst Du gerne in der Bahnhofstr. 9 vorbeikommen und Dir ein Bild von un
 Ich freue mich auf Deinen Besuch!
 
 ![Coming Soon](images/Sommer-2024.svg)
+
+{{<icon class="fa fa-envelope">}}&nbsp;[Unseren Newsletter abonnieren](https://coworking-hahnheim.de#newsletter)

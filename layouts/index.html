@@ -30,6 +30,12 @@
                 </header>
                 <section class="post-content">
                     {{ .Content }}
+
+                    {{ if eq .Title "Kontakt" }}
+                    {{ partial "newsletter.html" . }}
+
+                    {{ end }}
+
                 </section>
             </article>
             <div class='post-after'></div>
