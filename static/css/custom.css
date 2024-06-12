@@ -48,7 +48,6 @@ kept only the color definitions in order to change them */
 
     --title-color: var(--silver-pink);
     --subtitle-color: var(--silver-pink);
-    --header-background: var(--dust-storm-shade-5);
 }
 
 
@@ -83,6 +82,16 @@ kept only the color definitions in order to change them */
 
 img {
     border-radius: 30px;
+}
+
+video {
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+.video-title {
+    text-align: center;
 }
 
 #willkommen > section > p:nth-child(2) > img {
@@ -206,7 +215,7 @@ mark {
 /* Big cover image on the home page */
 #site-head {
     color: var(--title-color);
-    background: var(--header-background) no-repeat center center;
+    background: var(--silver-pink) no-repeat center center;
 }
 
 .blog-title {

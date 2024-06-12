@@ -11,4 +11,6 @@ Ich freue mich auf Deinen Besuch!
 
 ![Coming Soon](images/Sommer-2024.svg)
 
+{{< video src="/videos/virtual_visit.mp4" type="video/mp4" preload="auto" width="50%" title="Vorschau">}}
+
 {{<icon class="fa fa-envelope">}}&nbsp;[Unseren Newsletter abonnieren](https://coworking-hahnheim.de#newsletter)
