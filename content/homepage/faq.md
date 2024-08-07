@@ -1,6 +1,6 @@
 ---
 title: "F.A.Q"
-weight: 4
+weight: 5
 header_menu: true
 ---
 
@@ -42,33 +42,25 @@ Telefonate gibt es den Vorraum und in absehbarer Zeit auch eine Telefonbox.
 
 Geplant sind aktuell: 
 - 1 4er-Tisch
-- 1 Bildschirm-Arbeitsplatz
+- 1 2er-Tisch, an dem mit Bildschirmen gearbeitet werden kann. (coming soon)
 ---
 
 #### Muss ich monatlich buchen? 
 
 Natürlich nicht. Du kannst ganz flexibel entsprechend Deinen Bedürfnissen buchen.
-Wir haben Tages- und Zehnerkarten. Solltest Du einen ganzen Monat buchen wollen, dann schreib mir eine E-mail.
+Wir haben Tages- und Zehnerkarten, für ganze und für halbe Tage. Solltest Du einen ganzen Monat buchen wollen, dann schreib mir eine E-Mail.
 
 ---
 
 #### Was kostet das Coworking?
 
-Tageskarte: 18€  
-10er Karte: 150€
-
----
-
-#### Wie kann ich buchen und bezahlen?
-
-Die Buchungsseite wird in Kürze online gehen. Darauf kannst Du die verfügbaren Plätze sehen und buchen.
-Bezahlen kannst Du per Überweisung oder Paypal. Leider kann ich keine Barzahlung anbieten.
+Du kannst unsere Preise bei der [Buchung](https://app.ensemble-coworking.de) sehen.
 
 ---
 
 #### Was ist, wenn ich einen Bildschirm (Maus, Tastatur, etc.) brauche?  
 
-Es ist ein Bildschirm-Arbeitsplatz vorhanden, den Du gerne punktuell nutzen kannst.
+Es ist ein Bildschirm-Arbeitsplatz geplant, den Du gerne punktuell nutzen kannst.
 Zudem ist kleine Auswahl an Zubehör im Haus.
 
 Bei besonderen Bedürfnissen, sprich mich gerne an und wir schauen, was ich für Dich tun kann.
@@ -81,7 +73,4 @@ Bei besonderen Bedürfnissen, sprich mich gerne an und wir schauen, was ich für
 auch wenn die Bedeutung eine etwas andere ist.
 
 ---
-
-#### Gibt es eine Warteliste?  
-
-Du kannst mir gerne eine E-Mail schreiben und ich melde mich, sobald wir so weit sind. 
+{{< video src="/videos/virtual_visit.mp4" type="video/mp4" preload="auto" width="50%" title="Vorschau">}}
