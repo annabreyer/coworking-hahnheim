@@ -1,7 +1,9 @@
 ---
-title: "Willkommen"
+title: "Herzlich Willkommen"
+navigation_menu_title: "Willkommen"
 weight: 1
 ---
 
-Schön, dass Du da bist. 
-Unser kleiner aber feiner Coworking-Space öffnet seine Türen am 12. August 2024 um 9 Uhr!
+Wie schön, dass du da bist! Unser kleiner, aber feiner Coworking-Space lädt dich ein, Teil einer gemütlichen und inspirierenden Arbeitsgemeinschaft zu werden.  
+
+[Was ist denn Coworking?](/was-ist-coworking/ "Was ist denn Coworking?")

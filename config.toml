@@ -10,7 +10,8 @@ disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
 theme = "hugo-scroll"
 
 # The "title" of your website
-title = "Coworking in Hahnheim"
+title = "Coworking Hahnheim"
+
 
 [params]
     # A "copyright"-line to be added at the bottom of the page.
@@ -27,7 +28,14 @@ title = "Coworking in Hahnheim"
     # services like Twitter or Slack want to generate a preview of a link to your site.
     # See https://gohugo.io/templates/internal#twitter-cards and
     # https://gohugo.io/templates/internal#open-graph.
-    images = ["images/logo/source.svg"]
+    images = ["images/ensemble-logo-silverpink.jpg"]
+
+    # When set true, it creates a visual guard (partially transparent rounded box), preventing non-ideal background images from interfering with title/description headings
+    # Ideal images are homogenous around the centre and contrasting to the text.
+    # see CSS classes: .title-and-description-guard, .blog-title, .blog-description
+    # see _index.md header_headline and header_sub_headline
+    title_guard = false
+
 
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
@@ -38,5 +46,30 @@ title = "Coworking in Hahnheim"
     # You can turn it off, but we would really appreciate if you don’t :-)
     hidedesignbyline = true
 
+    # The sections of the home page alternate styling. Mark invert as true to swap the styling of the sections
+    invertSectionColors = false
+
+    # Options used for automatic image generation. see: https://gohugo.io/content-management/image-processing/
+    image_options = "webp q90 lanczos photo"
+
+    # Use "page_title | site_title" for <title> tags
+    # e.g. <title>Legal | Jane Doe - Nutrition Coach & Chef Consultant</title>
+    combine_page_and_site_title = false
+
+    # Show a menu of languages available
+    language_menu = false
+
+    # Show also a language menu item for the current language if false only
+    # show the remaining languages
+    show_current_lang = false
+
     [params.meta]
         keywords = "Coworking, Coworking Rheinhessen, Coworking Rhein-Selz, Coworking Hahnheim, Coworking Undenheim, Coworking Köngernheim, Coworking Zornheim"
+
+    [params.footer]
+    # Show contact icons for email/phone (if specified) in the footer of the page
+    showContactIcons = false
+
+    # Show links indicated with footer_menu and footer_menu_title in the footer of the page
+    showFooterLinks = false
+

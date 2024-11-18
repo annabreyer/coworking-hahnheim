@@ -11,7 +11,7 @@ kept only the color definitions in order to change them */
     --text-color-dark: #460222;
     --dark-gray: #38011b;
 
-    /* originale Coworking colors */
+    /* original Coworking colors */
     --dark-electric-blue: #526F76;
     --pastel-blue: #B5CACD;
     --sunray: #D9AC59;
@@ -27,33 +27,67 @@ kept only the color definitions in order to change them */
     --silver-pink-shade-1: #9F878B;
     --silver-pink-shade-5: #504446;
 
-    /* The different sections on the main page */
-    --post-holder: var(--secondary-color);
-    --dark-text: var(--body-color);
+    /* === Cover / Landing area === */
+    --cover-text-color: var(--dark-gray);
+    /* Used for Landing screen menu buttons, but potentially usable for highlighting other things */
+    --highlight: var(--silver-pink);
+    --highlight-contrast: var(--silver-pink-shade-1);
+    /*inverse colors used for :hover */
+    --highlight-inverse: var(--silver-pink-shade-1);
+    --highlight-inverse-contrast: white;
 
-    --post-holder-odd: var(--body-color);
-    --odd-text: var(--dark-gray);
+    /* visual guard around title and description, when the feature is enabled */
+    --cover-title-and-description-guard-bg-color: var(--silver-pink-shade-5);
+    --cover-title-text-shadow: var(--silver-pink-shade-5);
 
-    /* side menu */
-    --menu-item: var(--sunray);
-    --menu-item-active: var(--primary-color);
 
-    /* Buttons */
-    --btn-color: var(--sunray-tint-3);
-    --btn-color-hover: var(--sunray-shade-1);
-    --btn-color-text: var(--dark-electric-blue-shade-3);
+    /* === sticky top/left navigation menus === */
+    --sticky-menu-text-color: var(--primary-color);
 
-    --link-color: var(--text-color);
-    --link-hover-color: var(--silver-pink-shade-5);
 
-    --title-color: var(--silver-pink);
-    --subtitle-color: var(--silver-pink);
+    /* === Alternating content (post) sections  === */
+    /* Light section - text color */
+    --section-light-text-color: var(--dark-gray);
+    /* Light section - background color */
+    --section-light-bg-color: var(--body-color);
+
+    /* Dark section - text color */
+    --section-dark-text-color: var(--section-light-bg-color);
+    /* Dark section - background color */
+    --section-dark-bg-color: var(--secondary-color);
+
+    /* Light&Dark section >quote. Suppressive color, compared to 'Light section - text color'*/
+    --section-uni-quote: grey;
+    /* Light&Dark section `code` a bit darker than 'Light section - background color' */
+    --section-uni-code-bg-color: #e0ded7;
+
+    /* === Single pages=== */
+    --single-page-text-color: var(--section-light-text-color);
+    --single-page-bg-color: var(--section-light-bg-color);
+
+    /* === Footer === */
+    --footer-color-background: var(--dark-electric-blue);
+    --footer-color: var(--pastel-blue);
+
+    /* === Lists === */
+    /* define list element for unnumbered lists, leave empty for default list element */
+    --ul-li-icon: fa-asterisk;
 }
-
 
 /* ==========================================================================
       Custom styles for specific elements
    ========================================================================== */
+img {
+    border-radius: 10px;
+}
+
+
+#site-head a.btn, #site-head #site-languages .btn-lang, #site-head.withCenteredImage a.btn, #site-head.withCenteredImage #site-languages .btn-lang{
+    font-family: Montserrat;
+    color: var(--dark-gray);
+    font-weight: 500;
+}
+
 #side-header-title-button {
     background-image: radial-gradient(
             var(--dark-electric-blue-shade-5),
@@ -62,6 +96,31 @@ kept only the color definitions in order to change them */
     opacity: 0.9;
     padding: 30px;
     border-radius: 20px;
+    color: var(--silver-pink);
+}
+
+/* Default layout: Images side by side */
+.side-by-side {
+    display: flex;
+    gap: 10px; /* Space between images */
+}
+
+.side-by-side img {
+    width: 48%; /* Adjust width of each image */
+    max-width: 100%; /* Prevent overflow */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Responsive layout: Stack images vertically on smaller screens */
+@media (max-width: 768px) {
+    .side-by-side {
+        flex-direction: column; /* Stack images vertically */
+        gap: 20px; /* Adjust spacing between images */
+    }
+
+    .side-by-side img {
+        width: 100%; /* Full width on small screens */
+    }
 }
 
 #single-post-header-title {
@@ -74,74 +133,51 @@ kept only the color definitions in order to change them */
     border-radius: 20px;
 }
 #single-post-header-title a {
-    color: var(--link-color);
+    color: var(--silver-pink);
     text-align: center;
 }
 
-
-
-img {
-    border-radius: 30px;
+.post-content.single {
+    font-family: Montserrat, sans-serif;
 }
 
-video {
-    border-radius: 30px;
-    display: block;
-    margin: 0 auto;
+.site-footer {
+    display: flex; /* Flexbox layout for columns */
+    justify-content: space-between; /* Distribute columns evenly */
+    padding: 1rem; /* Add padding */
 }
 
-.video-title {
-    text-align: center;
+.site-footer .row {
+    display: flex; /* Ensure row behaves as a flex container */
+    gap: 2rem; /* Add spacing between columns */
+    width: 100%; /* Ensure row takes up full width */
 }
 
-#willkommen > section > p:nth-child(2) > img {
-    width: 50%;
+.site-footer .column {
+    width: 30%; /* Fix each column to 30% of the container width */
+    margin-bottom: 1rem; /* Optional spacing at the bottom */
 }
 
-body > main > article > header {
-    margin: 30px;
+.site-footer a {
+    display: block; /* Ensure each link is on its own line */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth hover effect */
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem; /* Space between links */
 }
 
-blockquote p {
-    margin: 0.8em 0;
-    font-family: var(--main-police);
-    font-style: italic;
-}
-
-.ensemble{
-    font-style: italic;
-}
-
-#blog-title-logo{
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 10px;
-    height: 100px;
-    margin-top: -20px;
-}
-#single-post-title-logo{
-    background-image:url('/images/ensemble-logo-silverpink.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 10px;
-    height: 100px;
-    margin-top: -20px;
+.site-footer .copyright {
+    font-size: 1rem; /* Smaller font for copyright */
+    margin-top: 1rem; /* Space above copyright */
+    text-align: center; /* Center copyright text */
 }
 
 
-
-/*!* ==========================================================================*/
+/* ==========================================================================*/
 /*      2. General - Setting up some base styles*/
-/*   ========================================================================== *!*/
-body {
-    font-family: var(--main-police);
-    color: var(--dark-text);
-    text-align: left;
-    text-justify: inter-word;
-}
+/* ==========================================================================*/
 
+body,
 h1,
 h2,
 h3,
@@ -151,205 +187,9 @@ h6 {
     font-family: var(--main-police);
 }
 
-h3,
-h4,
-h5,
-h6 {
-    font-family: var(--main-police);
-}
-
 .fixed-nav {
     font-family: var(--accent-police);
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-variant: small-caps;
     text-transform: none;
-}
-
-::-moz-selection {
-    color: var(--dark-gray);
-    background: var(--silver-pink);
-    text-shadow: none;
-}
-
-::selection {
-    color: var(--dark-gray);
-    background: var(--silver-pink);
-    text-shadow: none;
-}
-
-a:hover {
-    color: var(--link-color);
-}
-
-a.btn {
-    background-color: var(--btn-color);
-    color: var(--btn-color-text);
-    font-family: var(--accent-police);
-    font-size: 2.6rem;
-    font-variant: small-caps;
-    text-transform: none;
-}
-
-a.btn:hover {
-    background: var(--btn-color-hover);
-}
-
-hr {
-    color: var(--primary-color);
-    margin: 1.2em;
-}
-
-mark {
-    background-color: var(--sunray);
-}
-
-#header-arrow {
-    color: var(--dark-electric-blue-shade-5);
-}
-
-
-/*!* ==========================================================================*/
-/*      4. General - The main styles for the the theme*/
-/*      ========================================================================== *!*/
-
-/* Big cover image on the home page */
-#site-head {
-    color: var(--title-color);
-    background: var(--silver-pink) no-repeat center center;
-}
-
-.blog-title {
-    font-family: "MiamoLight";
-    font-size: 7rem;
-}
-
-.blog-description {
-    font-family: "MiamoLight";
-    font-size: 3.8rem;
-    margin-top: -20px;
-}
-
-.post {
-    font-size: 1.1em;
-    line-height: 1.6em;
-}
-
-.post-holder {
-    background: var(--post-holder);
-}
-
-.post-holder.odd {
-    background: var(--post-holder-odd);
-    color: var(--odd-text);
-}
-
-.post-template .post {
-    padding-bottom: 1rem;
-}
-
-.post-template .post-header {
-    padding: 40px 0;
-}
-
-.fn-item {
-    color: var(--menu-item);
-    background-color: var(--dark-electric-blue-shade-3);
-    opacity: 0.8;
-    padding: 8px 10px 8px 10px;
-    border-radius: 5px;
-}
-
-a.fn-item:hover {
-    color: var(--menu-item);
-    background: var(--dark-electric-blue-shade-5);
-    padding: 5px 10px 5px 10px;
-    border-radius: 5px;
-    margin: 5px;
-}
-
-a.fn-item.active {
-    color: var(--menu-item-active);
-    opacity: 1;
-    padding: 5px 10px 5px 10px;
-    border-radius: 5px;
-    margin: 5px;
-}
-
-.post-after {
-    border-top: 50px solid var(--post-holder);
-}
-
-/* ==========================================================================
-      8. Footer - The bottom of every page
-      ========================================================================== */
-
-.site-footer {
-    font-family: var(--main-police);
-    background: var(--dark-electric-blue);
-    .row{
-        .column {
-            float: left;
-            width: 33.33%;
-        }
-    }
-    /* Clear floats after the columns */
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-}
-
-.site-footer a {
-    color: var(--silver-pink);
-}
-
-.site-footer a:hover {
-    color: var(--silver-pink-shade-1);
-}
-
-@media only screen and (max-width: 1130px) {
-    .blog-title {
-        font-size: 6rem;
-        letter-spacing: -1px;
-    }
-
-    .blog-description {
-        font-size: 3rem;
-    }
-
-    a.btn {
-        font-size: 2.5rem;
-        padding: 5px 10px 5px 10px;
-    }
-
-    body {
-        text-align: left;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .blog-title {
-        font-size: 3.2rem;
-    }
-
-    .blog-description {
-        font-size: 1.8rem;
-    }
-
-    a.btn {
-        font-size: 1.6rem;
-        padding: 5px 10px 5px 10px;
-    }
-
-    body {
-        text-align: left;
-    }
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
 }

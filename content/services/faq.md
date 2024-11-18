@@ -1,14 +1,12 @@
 ---
-title: "F.A.Q"
-weight: 5
-header_menu: true
+url: "/faq"
 ---
 
 #### Wer steckt hinter Coworking Hahnheim? 
 
 Wir das bin ich, Anna. Ich bin nach 19 Jahren Frankreich (Normandie und Paris), zurück in meine Heimat Hahnheim gezogen. 
 Ich bin Software Entwicklerin, IT Coach und begeisterte Katzenmama. 
-![Anna Breyer](images/AnnaGelbPinkSitzend.jpeg)
+![Anna Breyer](/images/AnnaGelbPinkSitzend.jpeg)
 Foto von [Jasmin Metten Fotographie](https://jasmin-metten.de)
 
 ---
@@ -38,13 +36,6 @@ Telefonate gibt es den Vorraum und in absehbarer Zeit auch eine Telefonbox.
 
 ---
 
-#### Wie viele Plätze gibt es?
-
-Geplant sind aktuell: 
-- 1 4er-Tisch
-- 1 2er-Tisch, an dem mit Bildschirmen gearbeitet werden kann. (coming soon)
----
-
 #### Muss ich monatlich buchen? 
 
 Natürlich nicht. Du kannst ganz flexibel entsprechend Deinen Bedürfnissen buchen.
@@ -72,5 +63,3 @@ Bei besonderen Bedürfnissen, sprich mich gerne an und wir schauen, was ich für
 {{<script >}}Ensemble {{</>}} ist französisch für gemeinsam. Es erinnert an meine Zeit in Frankreich und ist auch kein Fremdwort im Deutschen,
 auch wenn die Bedeutung eine etwas andere ist.
 
----
-{{< video src="/videos/virtual_visit.mp4" type="video/mp4" preload="auto" width="50%" title="Vorschau">}}

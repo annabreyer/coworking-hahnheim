@@ -1,17 +1,20 @@
 {{ define "main" }}
-<main class="content page-template page-{{ .Slug }}" role="main" style="color: #8C0343">
+<main class="content page-template page-{{ .Slug }}" role="main">
     <article class="post page">
-        <header class="post-header">
+        <div class="post-header">
             <div id="single-post-head-content">
                 <div id="single-post-header-title">
-                    <div id="single-post-title-logo" ></div>
+                    <a href="/" class="header-logo">
+                        <img id="blog-logo" alt="" src="/images/ensemble-logo-silverpink.svg" />
+                    </a>
                     {{ with .Params.header_headline }}<h1 class="blog-title">{{ . }}</h1>{{ end }}
-                    {{ with .Params.header_subheadline }}<h2 class="blog-description">{{ . }}</h2>{{ end }}
+                    {{ with .Params.header_sub_headline }}<h2 class="blog-description">{{ . }}</h2>{{ end }}
                     <a href="{{ "/" | relURL }}"><h1> {{ .Site.Title }}</h1></a>
                 </div>
-        </header>
+            </div>
+        </div>
         <h1 class="post-title">{{ .Title }}</h1>
-        <section class="post-content">
+        <section class="post-content single">
             {{ .Content }}
         </section>
     </article>
