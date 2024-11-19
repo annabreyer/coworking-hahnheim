@@ -1,4 +1,4 @@
-baseURL = 'https://www.coworking-hahnheim.de'
+baseURL = 'https://sparkling-sundae-593871.netlify.app/'
 languageCode = 'de-DE'
 defaultContentLanguage = "de"
 enableInlineShortcodes = "true"
