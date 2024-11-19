@@ -1,5 +1,5 @@
 ---
-url: "/meeting-raum"
+url: "/workshops-treffen"
 description: 
 keywords: 
 ---
