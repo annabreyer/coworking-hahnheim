@@ -147,6 +147,42 @@ Ein CDN ist ein Dienst, mit dessen Hilfe Inhalte eines Onlineangebotes, insbeson
 oder Programm-Skripte, mit Hilfe regional verteilter und über das Internet verbundener Server schneller und sicherer
 ausgeliefert werden können; Rechtsgrundlagen: Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
 
+#### Hosting der Webseite und Buchungsapp
+
+Hosting der Webseite und Buchungsapp
+
+Unsere Webseite und Buchungsanwendung werden bei zwei unterschiedlichen Hosting-Anbietern betrieben. Dabei werden personenbezogene 
+Daten wie IP-Adressen, die bei der Nutzung der Dienste verarbeitet werden, an die jeweiligen Hosting-Anbieter übermittelt. 
+Mit beiden Anbietern bestehen Verträge zur Auftragsverarbeitung (AVV/DPA), die im Rahmen der jeweiligen Geschäftsbedingungen wirksam einbezogen sind.
+
+Netlify
+
+- Anbieter: Netlify, Inc., 2325 3rd Street, Suite 296, San Francisco, California 94107, USA
+- Zweck: Bereitstellung und Stabilität der Webseite
+- Verarbeitete Daten: Nutzungsdaten, Meta-/Kommunikationsdaten (z. B. IP-Adressen)
+- Datenschutz: https://www.netlify.com/privacy/
+- Vertrag: Der Data Processing Agreement (DPA) ist Bestandteil der AGBs.
+
+ALL-INKL.COM
+
+- Anbieter: ALL-INKL.COM - Neue Medien Münnich, Hauptstraße 68, 02742 Friedersdorf, Deutschland
+- Zweck: Hosting der Buchungsanwendung
+- Verarbeitete Daten: IP-Adressen, Server-Logfiles
+- Datenschutz: https://all-inkl.com/datenschutzinformationen/
+- Vertrag: Der AVV ist automatisch Bestandteil des Webhosting-Vertrags.
+
+Die Verarbeitung der Daten durch die Hosting-Anbieter erfolgt auf Grundlage unserer berechtigten Interessen (Art. 6 Abs. 1 lit. f DSGVO), 
+insbesondere der sicheren und effizienten Bereitstellung unseres Onlineangebotes.
+
+#### Einsatz von Cookies
+
+Wir verwenden auf unserer Webseite keine Cookies für Analyse-, Marketing- oder Tracking-Zwecke. Es werden ausschließlich technisch notwendige Cookies gesetzt, wenn dies zur Bereitstellung der Funktionalität erforderlich ist.”
+Technisch notwendige Cookies
+In unserer Buchungsanwendung könnten technisch notwendige Cookies eingesetzt werden, um grundlegende Funktionen wie die Sitzungsverwaltung oder die Sicherheit der Anwendung zu gewährleisten. Diese Cookies sind erforderlich, um die Funktionalität der Buchungsanwendung sicherzustellen, und basieren auf berechtigten Interessen gemäß Art. 6 Abs. 1 lit. f DSGVO. Sie können nicht deaktiviert werden, ohne die Nutzung der Anwendung zu beeinträchtigen.
+
+Sollten in Zukunft Cookies oder ähnliche Technologien verwendet werden, die nicht rein technisch notwendig sind, werden wir hierfür vorab Ihre ausdrückliche Einwilligung einholen (Art. 6 Abs. 1 lit. a DSGVO).
+
+
 #### Präsenzen in sozialen Netzwerken (Social Media)
 Wir unterhalten Onlinepräsenzen innerhalb sozialer Netzwerke und verarbeiten in diesem Rahmen Daten der Nutzer, um mit
 den dort aktiven Nutzern zu kommunizieren oder um Informationen über uns anzubieten.
@@ -179,12 +215,63 @@ Geräte-Informationen, IP-Adressen).
 Marketing. 
 - Rechtsgrundlagen: Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO). 
 
-##### Weitere Hinweise zu Verarbeitungsprozessen, Verfahren und Diensten:
+##### Nutzung von Social-Media-Plattformen und Kommunikationsdiensten
 
-- Instagram: Soziales Netzwerk; Dienstanbieter: Meta Platforms Irland Limited, 4 Grand Canal Square, Grand Canal Harbour,
-Dublin 2, Irland; Rechtsgrundlagen: Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO);
-Website: https://www.instagram.com;  
-Datenschutzerklärung: https://instagram.com/about/legal/privacy. 
+Wir nutzen verschiedene Plattformen und Kommunikationsdienste, um mit Nutzern und Kunden zu kommunizieren sowie Informationen bereitzustellen. 
+Dabei können personenbezogene Daten (z. B. Nutzungsdaten, Kommunikationsinhalte) durch die Anbieter dieser Plattformen verarbeitet werden. 
+Bitte beachten Sie, dass wir keinen vollständigen Einfluss auf die Datenverarbeitung durch die jeweiligen Anbieter haben.
+
+**Facebook**  
+Wir unterhalten eine Präsenz auf der Plattform Facebook, betrieben von Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland. 
+Obwohl wir auf dieser Plattform nur selten aktiv sind und keine direkte Kundenkommunikation über Facebook erfolgt, können durch die Nutzung dieser 
+Plattform personenbezogene Daten verarbeitet werden (z. B. durch Tracking oder die Erstellung von Nutzungsprofilen durch Meta). Weitere Informationen 
+zur Datenverarbeitung durch Facebook finden Sie hier: https://www.facebook.com/about/privacy/.
+
+**Instagram**  
+Wir sind auch auf Instagram aktiv, einer Plattform, die ebenfalls von Meta Platforms Ireland Limited betrieben wird. Bei der Nutzung von 
+Instagram können personenbezogene Daten wie Nutzungsdaten oder Interaktionen (z. B. Likes, Kommentare) verarbeitet werden. Weitere 
+Informationen zur Datenverarbeitung durch Instagram finden Sie in deren Datenschutzerklärung: https://help.instagram.com/519522125107875.
+
+**WhatsApp Business**  
+Zur Kommunikation mit Kunden nutzen wir den Messenger-Dienst WhatsApp Business, der von Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, 
+Dublin 2, Irland, betrieben wird.
+
+Verarbeitete Daten
+- Telefonnummern
+- Kommunikationsinhalte (z. B. Nachrichten, Anhänge)
+- Meta-/Kommunikationsdaten (z. B. IP-Adressen)
+
+Die Nutzung von WhatsApp Business ermöglicht es uns, effizient mit Kunden zu kommunizieren. Dabei werden personenbezogene Daten verarbeitet, 
+um die Kommunikation zu ermöglichen. Wir weisen darauf hin, dass bei der Nutzung von WhatsApp Daten an die Server von Meta übermittelt und 
+gemäß der WhatsApp-Datenschutzerklärung verarbeitet werden.
+
+*Sicherheitsmaßnahmen*
+WhatsApp Business bietet eine Ende-zu-Ende-Verschlüsselung, um die Sicherheit der Nachrichteninhalte zu gewährleisten. Dennoch empfehlen wir, 
+keine sensiblen oder vertraulichen Informationen über diesen Kanal zu übermitteln.
+
+*Rechtsgrundlage*
+Die Verarbeitung Ihrer Daten über WhatsApp Business erfolgt auf Grundlage unserer berechtigten Interessen (Art. 6 Abs. 1 lit. f DSGVO), 
+um eine effiziente Kundenkommunikation sicherzustellen, oder, sofern Sie uns freiwillig kontaktieren, auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).
+
+*Hinweise*
+Die Nutzung von WhatsApp Business durch unsere Kunden erfolgt freiwillig. Sollten Sie dies nicht wünschen, bieten wir alternative 
+Kommunikationswege, wie z. B. E-Mail oder Telefon, an.
+
+Weitere Informationen zur Datenverarbeitung durch WhatsApp Business finden Sie in der Datenschutzerklärung von WhatsApp: https://www.whatsapp.com/legal/privacy-policy-eea/.
+
+
+**Slack**  
+Für die interne Kommunikation im Coworking-Bereich nutzen wir Slack, einen Dienst der Salesforce, Inc., Salesforce Tower, 
+415 Mission Street, 3rd Floor, San Francisco, CA 94105, USA. Slack kann personenbezogene Daten wie Nutzungsdaten und 
+Kommunikationsinhalte verarbeiten. Die Übermittlung von Daten in die USA erfolgt auf Grundlage von Standardvertragsklauseln 
+gemäß Art. 46 DSGVO. Weitere Informationen zur Datenverarbeitung durch Slack finden Sie hier: https://slack.com/legal/privacy-policy.
+Slack wird ausschließlich für die interne Kommunikation im Coworking-Bereich genutzt und steht nicht für externe Kommunikation zur Verfügung.
+
+Hinweis zur Datenverarbeitung durch Drittanbieter
+
+Bitte beachten Sie, dass die Anbieter dieser Plattformen und Dienste Daten in Drittstaaten, insbesondere die USA, 
+übertragen können. In solchen Fällen erfolgt die Übermittlung auf Grundlage von Standardvertragsklauseln oder 
+anderen geeigneten Garantien gemäß Art. 46 DSGVO.
 
 #### Änderung und Aktualisierung der Datenschutzerklärung
 
