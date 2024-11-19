@@ -1,5 +1,5 @@
 ---
-url: "/was-ist-coworking"
+url: "/was-ist-coworking/"
 ---
 
 > Ein Coworking-Space ist als ein Ort zu verstehen, an dem Menschen zusammenkommen,

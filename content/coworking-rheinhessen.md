@@ -1,6 +1,6 @@
 ---
 title: "Coworking in Rheinhessen"
-url: "/coworking-rheinhessen"
+url: "/coworking-rheinhessen/"
 ---
 
 Schön, dass Du da bist.

@@ -1,5 +1,5 @@
 ---
-url: "/faq"
+url: "/faq/"
 ---
 
 #### Wer steckt hinter Coworking Hahnheim? 

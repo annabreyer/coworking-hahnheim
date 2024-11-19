@@ -1,6 +1,6 @@
 ---
 title: "Coworking in der Nähe von Selzen"
-url: "/coworking-selzen"
+url: "/coworking-selzen/"
 ---
 
 Schön, dass Du da bist.

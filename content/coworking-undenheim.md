@@ -1,6 +1,6 @@
 ---
 title: "Coworking in der Nähe von Undenheim"
-url: "/coworking-undenheim"
+url: "/coworking-undenheim/"
 ---
 
 Schön, dass Du da bist.

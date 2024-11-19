@@ -1,6 +1,6 @@
 ---
 title: "Coworking in der Nähe von Harxheim"
-url: "/coworking-harxheim"
+url: "/coworking-harxheim/"
 ---
 
 Schön, dass Du da bist.

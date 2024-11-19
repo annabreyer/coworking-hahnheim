@@ -1,6 +1,6 @@
 ---
 title: "Coworking in der Nähe von Köngernheim"
-url: "/coworking-kongernheim"
+url: "/coworking-kongernheim/"
 ---
 
 Schön, dass Du da bist.

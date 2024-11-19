@@ -1,6 +1,6 @@
 ---
 title: "Datenschutz"
-url: "/datenschutz"
+url: "/datenschutz/"
 ---
 
 Verantwortlicher

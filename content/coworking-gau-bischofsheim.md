@@ -1,6 +1,6 @@
 ---
 title: "Coworking in der Nähe von Gau Bischofsheim"
-url: "/coworking-gau-bischofsheim"
+url: "/coworking-gau-bischofsheim/"
 ---
 
 Schön, dass Du da bist.

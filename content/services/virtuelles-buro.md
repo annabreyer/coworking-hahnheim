@@ -1,5 +1,5 @@
 ---
-url: "/virtuelles-buro"
+url: "/virtuelles-buro/"
 ---
 
 

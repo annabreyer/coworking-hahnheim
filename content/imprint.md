@@ -1,6 +1,6 @@
 ---
 title: "Impressum"
-url: "/impressum"
+url: "/impressum/"
 ---
 
 ##### Angaben gemäß § 5 TMG

@@ -1,6 +1,6 @@
 ---
 title: "Coworking in der Nähe von Zornheim"
-url: "/coworking-zornheim"
+url: "/coworking-zornheim/"
 ---
 
 Schön, dass Du da bist.

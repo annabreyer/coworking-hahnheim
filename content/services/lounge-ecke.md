@@ -1,5 +1,5 @@
 ---
-url: "/lounge-ecke"
+url: "/lounge-ecke/"
 ---
 
 # Lounge-Ecke

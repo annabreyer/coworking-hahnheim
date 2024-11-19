@@ -1,5 +1,5 @@
 ---
-url: "/workshops-treffen"
+url: "/workshops-treffen/"
 description: 
 keywords: 
 ---
