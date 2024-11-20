@@ -4,8 +4,8 @@ header_image: "images/cover-image.jpg"
 
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
-header_headline: "Coworking"
-header_sub_headline: "in Hahnheim"
+header_headline: "Coworking Hahnheim"
+header_sub_headline: "Wo Community und Produktivität aufeinandertreffen"
 
 # When set true, uses video from custom_header_video.html partial, instead of header_image
 header_use_video: false

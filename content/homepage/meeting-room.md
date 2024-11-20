@@ -2,7 +2,7 @@
 title: "Dein Raum für Workshops, Treffen und kleine Events in Hahnheim"
 navigation_menu_title: "Treffpunkt"
 header_menu_title: "Treffpunkt"
-weight: 5
+weight: 4
 header_menu: true
 ---
 

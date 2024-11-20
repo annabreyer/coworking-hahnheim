@@ -19,7 +19,7 @@ title = "Coworking Hahnheim"
     copyright = "©Anna Breyer"
 
     # The "description" of your website. This is used in the meta data of your generated html.
-    description = "Coworking in Hahnheim"
+    description = "Coworking Hahnheim – Dein flexibler Arbeitsplatz im Grünen. Genieße Highspeed-Internet, Networking und eine inspirierende Umgebung im Herzen von Rhein-Main."
 
     # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
     # favicon = "static/images/favicon/favicon.png"
@@ -47,7 +47,7 @@ title = "Coworking Hahnheim"
     hidedesignbyline = true
 
     # The sections of the home page alternate styling. Mark invert as true to swap the styling of the sections
-    invertSectionColors = false
+    invertSectionColors = true
 
     # Options used for automatic image generation. see: https://gohugo.io/content-management/image-processing/
     image_options = "webp q90 lanczos photo"
@@ -64,7 +64,7 @@ title = "Coworking Hahnheim"
     show_current_lang = false
 
     [params.meta]
-        keywords = "Coworking, Coworking Rheinhessen, Coworking Rhein-Selz, Coworking Hahnheim, Coworking Undenheim, Coworking Köngernheim, Coworking Zornheim"
+        keywords = "Coworking Hahnheim, flexibles Arbeiten, Arbeitsplatz mieten, Coworking Space Rhein-Main, Networking Hahnheim"
 
     [params.footer]
     # Show contact icons for email/phone (if specified) in the footer of the page

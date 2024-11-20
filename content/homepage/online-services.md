@@ -2,7 +2,7 @@
 title: "Unsere digitalen Angebote – <br> Coworking, auch online!"
 header_menu_title: "Digitale Angebote"
 navigation_menu_title: "Digitale Angebote"
-weight: 4
+weight: 5
 header_menu: true
 ---
 

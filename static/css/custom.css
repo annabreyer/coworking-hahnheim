@@ -131,6 +131,11 @@ img {
     opacity: 0.9;
     padding: 30px;
     border-radius: 20px;
+    text-align: center;
+}
+
+#single-post-header-title #blog-logo{
+    margin: 0 auto 2em auto;
 }
 #single-post-header-title a {
     color: var(--silver-pink);
@@ -138,12 +143,20 @@ img {
 }
 .single-header-title{
         font-size: 2em;
-        margin: 0.67em 0;
-        text-align: center;
+        margin: 1em;
 }
 .post-content.single {
     font-family: Montserrat, sans-serif;
 }
+
+.post-content.single h2{
+    text-align: center;
+}
+
+.post-title{
+    text-align: center;
+}
+
 
 .site-footer {
     display: flex; /* Flexbox layout for columns */
@@ -196,4 +209,42 @@ h6 {
     font-size: 2rem;
     font-variant: small-caps;
     text-transform: none;
+}
+
+/** =========== Headings =========== */
+
+
+h1 {
+    font-size: 4.5rem;
+    line-height: 1.2em;
+    letter-spacing: -2px;
+    text-indent: -3px;
+}
+
+h2 {
+    font-size: 4rem;
+    line-height: 1.2em;
+    letter-spacing: -1px;
+    text-indent: -2px;
+}
+
+h3 {
+    font-size: 3.5rem;
+}
+
+h4 {
+    font-size: 3rem;
+}
+
+h5 {
+    font-size: 2.5rem;
+}
+
+h6 {
+    font-size: 2rem;
+}
+
+.post {
+    word-break: normal;
+    hyphens: none;
 }

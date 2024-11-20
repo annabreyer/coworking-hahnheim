@@ -63,7 +63,7 @@ Unser gemütlicher Esstisch lädt dazu ein, gemeinsam eine entspannte Essenspaus
 
 --- 
 
-##### Nochg Fragen?
+##### Noch Fragen?
 
 Dann schaut mal in unseren [F.A.Q](/faq/ "F.A.Q"). 
 
