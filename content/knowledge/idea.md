@@ -1,6 +1,7 @@
 ---
 url: "/wissenswertes/mehr-als-nur-ein-arbeitsplatz/"
 title: "Coworking: Mehr als nur ein Arbeitsplatz"
+description: ""
 ---
 
 > Ein Coworking-Space ist als ein Ort zu verstehen, an dem Menschen zusammenkommen,

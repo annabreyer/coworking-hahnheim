@@ -1,9 +1,9 @@
 ---
-title: "Coworking in der VG Bodenheim"
 url: "/rheinhessen/coworking-harxheim-gau-bischofsheim/"
+title: "Arbeiten im Grünen, nah an Mainz – Coworking in Hahnheim"
+description: "Arbeiten im Grünen, nah an Mainz – Coworking in Hahnheim für Berufstätige aus Harxheim, Gau-Bischofsheim und Umgebung. Genieße die Ruhe, lokale Vernetzung und moderne Arbeitsplätze nur wenige Minuten von Mainz entfernt."
+keywords: ["Coworking Hahnheim", "Arbeiten im Grünen", "Coworking VG Bodenheim", "Harxheim Coworking", "Gau-Bischofsheim Coworking", "Pendler Mainz", "Arbeitsplatz nahe Mainz", "ländliches Arbeiten", "Gemeinschaftsarbeit", "modernes Arbeitsumfeld"]
 ---
-
-## Arbeiten im Grünen, nah an Mainz
 
 Die Verbandsgemeinde Bodenheim bietet eine ideale Balance zwischen städtischer Nähe und ländlicher Ruhe. Unser Coworking-Space in Hahnheim ist der perfekte Ort für Berufstätige aus Harxheim, Gau-Bischofsheim und Umgebung, die ein modernes Arbeitsumfeld suchen – mitten in der Natur und doch nur wenige Minuten von Mainz entfernt.
 

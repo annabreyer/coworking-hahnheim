@@ -1,9 +1,9 @@
 ---
-title: "Coworking in der VG Rhein-Selz"
 url: "/rheinhessen/coworking-rhein-selz/"
+title: "Arbeiten im Grünen – Coworking für die VG Rhein-Selz"
+description: "Coworking in Hahnheim – der perfekte Arbeitsplatz in der VG Rhein-Selz. Von Oppenheim bis Friesenheim, genieße flexibles Arbeiten im Grünen, soziale Kontakte und eine inspirierende Gemeinschaft mitten in Rheinhessen."
+keywords: ["Coworking Hahnheim", "Arbeiten im Grünen", "Coworking VG Rhein-Selz", "Oppenheim Coworking", "Nierstein Coworking", "Selzen Coworking", "Mommenheim Coworking", "Friesenheim Coworking", "Arbeiten in Rheinhessen", "Gemeinschaftsarbeit", "ländliches Arbeiten"]
 ---
-
-## Arbeiten im Grünen mit Gemeinschaft
 
 Von Oppenheim bis Undenheim, von Mommenheim bis Friesenheim: Die Verbandsgemeinde Rhein-Selz verbindet das Beste aus ländlichem Leben und Nähe zur Stadt. Unser Coworking-Space in Hahnheim ist der perfekte Ort, um produktiv zu arbeiten, soziale Kontakte zu knüpfen und eine inspirierende Arbeitsumgebung zu erleben.
 

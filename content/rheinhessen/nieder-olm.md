@@ -1,8 +1,9 @@
 ---
-title: "Coworking in der VG Nieder-Olm"
 url: "/rheinhessen/coworking-nieder-olm/"
+title: "Arbeiten nah an Mainz – Coworking für Nieder-Olm, Sörgenloch und Zornheim"
+description: "Arbeiten nah an Mainz – Coworking in Hahnheim für Berufstätige aus Nieder-Olm, Sörgenloch, Zornheim und Umgebung. Erlebe modernes Arbeiten, kurze Wege und eine inspirierende Gemeinschaft im Grünen."
+keywords: ["Coworking Hahnheim", "Arbeiten nahe Mainz", "Coworking VG Nieder-Olm", "Nieder-Olm Coworking", "Sörgenloch Coworking", "Zornheim Coworking", "Arbeiten in Rheinhessen", "Gemeinschaftsarbeit", "Coworking im Grünen", "modernes Arbeitsumfeld"]
 ---
-## Arbeiten nah an Mainz, in Sörgenloch, Zornheim und Umgebung
 
 Die Verbandsgemeinde Nieder-Olm vereint moderne Infrastruktur, ländlichen Charme und eine hervorragende Nähe zu Mainz. Unser Coworking-Space in Hahnheim liegt nur einen kurzen Weg entfernt und bietet Dir eine inspirierende Umgebung, um produktiv zu arbeiten und gleichzeitig die Vorteile einer Gemeinschaft zu genießen.
 

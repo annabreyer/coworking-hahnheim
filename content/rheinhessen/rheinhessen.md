@@ -1,9 +1,9 @@
 ---
-title: "Coworking in Rheinhessen"
 url: "/rheinhessen/"
+title: "Arbeiten im Herzen der Weinregion – Coworking in Rheinhessen"
+description: "Coworking im Herzen Rheinhessens – Arbeiten in Hahnheim, umgeben von Weinbergen und moderner Infrastruktur. Perfekt für Berufstätige aus Mainz, Worms, Alzey und der Region. Flexibles Arbeiten, starke Community und inspirierende Umgebung."
+keywords: ["Coworking Rheinhessen", "Arbeiten in Hahnheim", "Coworking Mainz", "Coworking Worms", "Coworking Alzey", "Arbeiten im Grünen", "Weinregion Rheinhessen", "Gemeinschaftsarbeit", "Coworking mit Weinbergblick", "Arbeiten in Rheinhessen"]
 ---
-
-## Arbeiten im Herzen der Weinregion
 
 Rheinhessen – die größte Weinregion Deutschlands – verbindet ländlichen Charme mit moderner Infrastruktur. Mitten in dieser einzigartigen Region liegt unser Coworking-Space in Hahnheim, der ideal für alle ist, die in einer produktiven und inspirierenden Umgebung arbeiten möchten. Egal, ob Du aus Mainz, Worms, Alzey oder einem der vielen Dörfer in Rheinhessen kommst, unser Coworking-Space bietet Dir die perfekte Mischung aus Gemeinschaft, Flexibilität und Ruhe.
 

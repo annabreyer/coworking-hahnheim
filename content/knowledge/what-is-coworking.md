@@ -1,6 +1,7 @@
 ---
 url: "/wissenswertes/was-ist-ein-coworking-space/"
 title: "Was ist ein Coworking Space und wie funktioniert er?"
+description: ""
 ---
 
 Coworking Spaces erfreuen sich immer größerer Beliebtheit – doch was genau ist ein Coworking Space, was braucht man dafür, und wie funktioniert das Konzept? 

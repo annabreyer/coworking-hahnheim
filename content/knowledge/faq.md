@@ -1,6 +1,8 @@
 ---
 url: "/wissenswertes/faq/"
-title: "F.A.Q."
+title: "FAQ"
+description: "Eine umfassende FAQ-Seite mit Antworten auf die häufigsten Fragen zu Ensemble Coworking Hahnheim. Finden Sie klare und hilfreiche Informationen, die Ihnen weiterhelfen."
+keywords: ["FAQ", "häufige Fragen", "Antworten", "Hilfe", "Support", "häufig gestellte Fragen", "Ensemble Coworking Hahnheim", "Coworking FAQ", "Gemeinschaftsbüro", "Arbeitsplätze", "Remote-Arbeit"]
 ---
 
 

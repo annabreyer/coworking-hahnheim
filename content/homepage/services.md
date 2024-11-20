@@ -36,7 +36,7 @@ Und wenn es mal etwas anderes als der Schreibtisch sein soll, lädt unsere Loung
 Ob du ein gutes Buch lesen, in Ruhe deine Lieblingsserie schauen, häkeln, stricken oder einfach die Seele baumeln lassen möchtest – die Lounge-Ecke ist dein Ort für Entspannung und kreative Momente.
 
 📍 Lust auf mehr?  
-👉 Hier geht’s zur [Lounge-Ecke](/lounge-ecke/ "Lounge Ecke")
+👉 Hier geht’s zur [Lounge-Ecke](/angebot/lounge-ecke/ "Lounge Ecke")
 
 
 {{< sidebyside >}}

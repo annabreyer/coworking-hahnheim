@@ -1,9 +1,9 @@
 ---
-title: "Coworking in der VG Wörrstadt"
+title: "Coworking in der VG Wörrstadt – Arbeiten zwischen Weinbergen"
 url: "/rheinhessen/coworking-woerrstadt/"
+description: "Coworking für die VG Wörrstadt – Arbeiten in Hahnheim, nur wenige Minuten von Wörrstadt, Saulheim und Armsheim entfernt. Genieße eine inspirierende Arbeitsumgebung zwischen Weinbergen, Gemeinschaft und moderner Infrastruktur."
+keywords: ["Coworking Wörrstadt", "Coworking Saulheim", "Coworking Armsheim", "Arbeiten in Rheinhessen", "Coworking Hahnheim", "Arbeiten im Grünen", "Coworking VG Wörrstadt", "Gemeinschaftsarbeit", "modernes Arbeitsumfeld", "Arbeiten zwischen Weinbergen"]
 ---
-
-## Arbeiten zwischen Weinbergen und Gemeinschaft
 
 Die Verbandsgemeinde Wörrstadt, mitten im Herzen von Rheinhessen, vereint malerische Weinberge, charmante Dörfer und eine aufstrebende Gemeinschaft. Unser Coworking-Space in Hahnheim liegt nur wenige Minuten entfernt und bietet Dir die perfekte Umgebung, um produktiv zu arbeiten – mit einer Mischung aus Ruhe, Inspiration und einer herzlichen Gemeinschaft.
 

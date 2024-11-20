@@ -1,6 +1,7 @@
 ---
 title: "Alles rund um Coworking Hahnheim"
 url: "/wissenswertes/"
+description: ""
 ---
 
 Hier findest du alle Links zu den verschiedenen Themen rund um Coworking allgemein und Coworking Hahnheim.  
