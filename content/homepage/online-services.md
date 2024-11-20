@@ -11,7 +11,7 @@ Du möchtest von den Vorteilen eines Coworking Spaces profitieren, ohne vor Ort 
 
 ####  {{<icon name="envelopes-bulk">}}&nbsp;Virtuelles Büro  
 Nutze unsere Adresse als repräsentative Geschäftsadresse und bleibe flexibel. Wir kümmern uns um deine Post, und du kannst dich ganz auf dein Business konzentrieren.
-[Mehr lesen ...](/angebot/virtuelles-buro/ "Virtuelles Büro")
+[Mehr lesen →](/angebot/virtuelles-buro/ "Virtuelles Büro")
 
 #### {{<icon name="slack" brand="true">}}&nbsp;Slack-Community 
 Werde Teil unserer aktiven Slack-Community und vernetze dich mit Gleichgesinnten. Tausche dich aus, finde Inspiration, stelle Fragen und bleibe immer auf dem Laufenden über Events und Neuigkeiten aus unserem Coworking Space.
