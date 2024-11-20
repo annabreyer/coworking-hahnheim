@@ -6,7 +6,7 @@ url: "/impressum/"
 ##### Angaben gemäß § 5 TMG
 
 Anna Breyer  
-{{<script >}}Ensemble {{</>}}
+Ensemble
 Coworking Hahnheim  
 Bahnhofstr. 9  
 55278 Hahnheim  

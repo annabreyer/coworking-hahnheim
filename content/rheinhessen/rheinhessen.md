@@ -1,6 +1,6 @@
 ---
 title: "Coworking in Rheinhessen"
-url: "/rheinhessen/coworking-rheinhessen/"
+url: "/rheinhessen/"
 ---
 
 ## Arbeiten im Herzen der Weinregion

@@ -189,6 +189,58 @@ img {
     text-align: center; /* Center copyright text */
 }
 
+.breadcrumbs {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.2rem; /* Slightly smaller for breadcrumbs */
+    color: var(--text-color-dark); /* Darker text for visibility */
+    margin: 1em 0; /* Add space around */
+    text-align: left; /* Align breadcrumbs to the left */
+}
+
+.breadcrumbs a {
+    color: var(--primary-color); /* Match links with primary theme */
+    text-decoration: none; /* Remove underline */
+    margin-right: 0.5em; /* Space after each link */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.breadcrumbs a:hover {
+    color: var(--secondary-color); /* Secondary color on hover */
+}
+
+.breadcrumbs span {
+    color: var(--text-color); /* Neutral color for separators and current item */
+    margin: 0 0.5em; /* Space around separators */
+}
+
+.breadcrumbs span.current {
+    font-weight: bold; /* Highlight the current page */
+    color: var(--secondary-color); /* Secondary color for emphasis */
+}
+
+.back-link {
+    display: inline-block; /* Ensure it behaves like a button */
+    font-family: Montserrat, sans-serif;
+    font-size: 1.2rem; /* Keep consistent with breadcrumbs */
+    color: var(--secondary-color); /* Match with secondary theme */
+    background-color: var(--highlight); /* Highlight color for the button */
+    padding: 0.5em 1em; /* Add padding for a button look */
+    border: none; /* Remove any default borders */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Pointer cursor for a clickable element */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effects */
+}
+
+.back-link:hover {
+    background-color: var(--highlight-inverse); /* Inverse highlight on hover */
+    color: var(--highlight-inverse-contrast); /* Contrast color on hover */
+}
+
+.back-link:focus {
+    outline: 2px solid var(--primary-color); /* Accessibility focus state */
+}
+
 
 /* ==========================================================================*/
 /*      2. General - Setting up some base styles*/

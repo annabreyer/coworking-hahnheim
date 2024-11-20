@@ -1,5 +1,6 @@
 ---
-url: "/was-ist-coworking/"
+url: "/wissenswertes/mehr-als-nur-ein-arbeitsplatz/"
+title: "Coworking: Mehr als nur ein Arbeitsplatz"
 ---
 
 > Ein Coworking-Space ist als ein Ort zu verstehen, an dem Menschen zusammenkommen,
@@ -15,7 +16,7 @@ Ort, den man zum Feierabend verlassen kann.
 > Coworking auf dem Land ist gut für Umwelt, Regionalentwicklung, 
 > Fachkräftesicherung und die persönliche Work-Life-Balance.[^1]
 
-{{<script >}}Ensemble {{</>}} Coworking in Hahnheim ist ein Ort an dem Du in guter Gesellschaft und angenehmer Umgebung arbeiten kannst.
+Ensemble Coworking in Hahnheim ist ein Ort an dem Du in guter Gesellschaft und angenehmer Umgebung arbeiten kannst.
 Wo Austausch an der Kaffeemaschine oder am Mittagstisch stattfindet.
 
 Wir sind eine kleine Bürogemeinschaft mit Betonung des Wortes Gemeinschaft.

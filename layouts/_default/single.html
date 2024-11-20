@@ -11,12 +11,33 @@
                     {{ with .Params.header_sub_headline }}<span class="blog-description">{{ . }}</span>{{ end }}
                     <a href="{{ "/" | relURL }}"><span class="single-header-title"> {{ .Site.Title }}</span></a>
                 </div>
+
             </div>
         </div>
-        <h1 class="post-title">{{ .Title }}</h1>
+
+        <nav class="breadcrumbs">
+            <a href="{{ "/" | relURL }}">Startseite</a>
+            {{ if gt (len (split .RelPermalink "/")) 2 }}
+            {{ $segments := split .RelPermalink "/" }}
+            {{ $path := "" }}
+            {{ range $index, $segment := $segments }}
+            {{ if and (ne $segment "") (lt $index (sub (len $segments) 2)) }}
+            {{ $path = printf "%s/%s" $path $segment }}
+            <span>/</span>
+            <a href="{{ $path | relURL }}">{{ $segment | humanize }}</a>
+            {{ end }}
+            {{ end }}
+            {{ end }}
+            <span>/</span>
+            <span class="current">{{ .Title }}</span>
+        </nav>
+
+
+        <h1 class="post-title">{{ .Title | htmlEscape }}</h1>
         <section class="post-content single">
             {{ .Content }}
         </section>
     </article>
 </main>
 {{ end }}
+

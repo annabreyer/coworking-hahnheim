@@ -1,6 +1,8 @@
 ---
-url: "/faq/"
+url: "/wissenswertes/faq/"
+title: "F.A.Q."
 ---
+
 
 #### Wer steckt hinter Coworking Hahnheim? 
 
@@ -58,8 +60,8 @@ Bei besonderen Bedürfnissen, sprich mich gerne an und wir schauen, was ich für
 
 ---
 
-#### Woher kommt der Name {{<script >}}Ensemble {{</>}}?
+#### Woher kommt der Name Ensemble?
 
-{{<script >}}Ensemble {{</>}} ist französisch für gemeinsam. Es erinnert an meine Zeit in Frankreich und ist auch kein Fremdwort im Deutschen,
+Ensemble ist französisch für gemeinsam. Es erinnert an meine Zeit in Frankreich und ist auch kein Fremdwort im Deutschen,
 auch wenn die Bedeutung eine etwas andere ist.
 
