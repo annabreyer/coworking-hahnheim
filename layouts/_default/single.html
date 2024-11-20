@@ -7,9 +7,9 @@
                     <a href="/" class="header-logo">
                         <img id="blog-logo" alt="" src="/images/ensemble-logo-silverpink.svg" />
                     </a>
-                    {{ with .Params.header_headline }}<h1 class="blog-title">{{ . }}</h1>{{ end }}
-                    {{ with .Params.header_sub_headline }}<h2 class="blog-description">{{ . }}</h2>{{ end }}
-                    <a href="{{ "/" | relURL }}"><h1> {{ .Site.Title }}</h1></a>
+                    {{ with .Params.header_headline }}<span class="blog-title">{{ . }}</span>{{ end }}
+                    {{ with .Params.header_sub_headline }}<span class="blog-description">{{ . }}</span>{{ end }}
+                    <a href="{{ "/" | relURL }}"><span class="single-header-title"> {{ .Site.Title }}</span></a>
                 </div>
             </div>
         </div>

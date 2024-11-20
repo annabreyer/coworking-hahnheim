@@ -136,7 +136,11 @@ img {
     color: var(--silver-pink);
     text-align: center;
 }
-
+.single-header-title{
+        font-size: 2em;
+        margin: 0.67em 0;
+        text-align: center;
+}
 .post-content.single {
     font-family: Montserrat, sans-serif;
 }
