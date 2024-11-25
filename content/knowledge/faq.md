@@ -67,3 +67,47 @@ Bei besonderen Bedürfnissen, sprich mich gerne an und wir schauen, was ich für
 Ensemble ist französisch für gemeinsam. Es erinnert an meine Zeit in Frankreich und ist auch kein Fremdwort im Deutschen,
 auch wenn die Bedeutung eine etwas andere ist.
 
+
+#### Gibt es Parkmöglichkeiten?
+
+Ja, es stehen ausreichend Parkplätze in der Nähe des Coworking-Spaces zur Verfügung. Wenn Du mit dem Fahrrad kommst, kannst Du dieses sicher abstellen – sportliche Radfahrer haben vor Ort sogar Zugang zu einer Dusche.
+
+#### Kann ich mein Mittagessen vor Ort zubereiten?
+
+In unserer offenen Gemeinschaftsküche kannst Du Dein Essen aufwärmen oder kleine Snacks zubereiten. Außerdem stehen Tee, Kaffee und Wasser zur Verfügung.
+
+#### Ist High-Speed-Internet (Glasfaser) verfügbar?
+
+Aktuell ist unser Internet ausreichend schnell für die meisten Anforderungen. High-Speed-Internet ist jedoch bereits in Planung und wird in Kürze verfügbar sein.
+
+#### Kann ich einen festen Arbeitsplatz buchen?
+
+Feste Arbeitsplätze sind momentan nicht vorgesehen, da wir flexible Nutzung ermöglichen möchten. Solltest Du jedoch spezielle Bedürfnisse haben, sprich uns an – wir finden eine Lösung.
+
+#### Kann ich den Space am Wochenende nutzen?
+
+Ja, das ist möglich. Du kannst den Coworking-Space nach Absprache auch am Wochenende oder außerhalb der regulären Öffnungszeiten nutzen.
+
+#### Gibt es Rabatte bei regelmäßiger Nutzung?
+
+Ja, wir bieten Rabatte für Zehnerkarten und bei monatlicher Buchung. Schreib uns gerne eine E-Mail, um Details zu erfahren.
+
+#### Sind Haustiere erlaubt?
+
+Da ich selbst Katzen liebe, verstehe ich den Wunsch nach tierischer Gesellschaft. Im Interesse aller Coworker sind Haustiere im Space jedoch nicht erlaubt.
+
+#### Wie ist der Coworking-Space ausgestattet?
+
+Unser Space bietet Dir bequeme Schreibtische, ergonomische Stühle und Zugang zu einer Gemeinschaftsküche. Bald wird auch ein Bildschirm-Arbeitsplatz verfügbar sein. Zubehör wie Maus, Tastatur oder Kabel haben wir ebenfalls vor Ort.
+
+#### Gibt es Veranstaltungen oder Networking-Möglichkeiten?
+
+Gelegentlich organisieren wir kleine Networking-Events, Workshops oder gemeinsame Aktivitäten, um unsere Community zu stärken. Halte Dich über unsere Website oder Social Media auf dem Laufenden.
+
+#### Kann ich den Space für eine Gruppe oder ein Team buchen?
+
+Ja, Du kannst den Space oder den Workshop-Raum für Gruppen oder Team-Meetings buchen. Schreib uns eine Nachricht, um Deine Anforderungen zu besprechen.
+
+#### Was ist, wenn ich mal Ruhe brauche?
+
+Neben unserem Open Space gibt es Rückzugsmöglichkeiten, wie den Vorraum oder unsere bald verfügbare Telefonbox, wo Du ungestört arbeiten oder telefonieren kannst.
