@@ -13,3 +13,6 @@ Hier findest du alle Links zu den verschiedenen Themen rund um Coworking allgeme
 {{<icon name="users">}}&nbsp;[Coworking - Mehr als nur ein Arbeitsplatz](/wissenswertes/mehr-als-nur-ein-arbeitsplatz/ "Coworking - Mehr als nur ein Arbeitsplatz")
 
 {{<icon name="briefcase">}}&nbsp;[Was ist ein Coworking Space und wie funktioniert er?](/wissenswertes/was-ist-ein-coworking-space/ "Was ist ein Coworking Space und wie funktioniert er?")
+
+{{<icon name="gift">}}&nbsp;[Verschenke Produktivität und Kreativität – Gutscheine für Coworking Hahnheim](/wissenswertes/coworking-gutschein/ "Verschenke Produktivität und Kreativität – Gutscheine für Coworking Hahnheim?")
+

@@ -9,3 +9,5 @@ Hier findest du alles, was du über Coworking und unseren Space in Hahnheim wiss
 Wir teilen nützliche Tipps, spannende Einblicke und unsere aktuellen Angebote. 
 Egal, ob du einen flexiblen Arbeitsplatz suchst, dich über Workshops informieren möchtest oder Inspiration für 
 deinen Arbeitsalltag suchst – [hier](/wissenswertes/ "Wissenswertes") bist du richtig.
+
+[Wissenswertes](/wissenswertes/ "Wissenswertes")
