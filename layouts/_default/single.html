@@ -1,20 +1,49 @@
 {{ define "main" }}
 <main class="content page-template page-{{ .Slug }}" role="main">
-    <article class="post page">
-        <div class="post-header">
-            <div id="single-post-head-content">
-                <div id="single-post-header-title">
-                    <a href="/" class="header-logo">
-                        <img id="blog-logo" alt="" src="/images/ensemble-logo-silverpink.svg" />
-                    </a>
-                    {{ with .Params.header_headline }}<span class="blog-title">{{ . }}</span>{{ end }}
-                    {{ with .Params.header_sub_headline }}<span class="blog-description">{{ . }}</span>{{ end }}
-                    <a href="{{ "/" | relURL }}"><span class="single-header-title"> {{ .Site.Title }}</span></a>
+    <!-- New single page header with full width -->
+    <header class="single-page-header">
+        <div class="single-header-content">
+            <div class="single-header-top">
+                <div id="single-post-head-content">
+                    <div id="single-post-header-title">
+                        <a href="/" class="header-logo">
+                            <img id="blog-logo" alt="" src="/images/ensemble-logo-silverpink.svg" />
+                        </a>
+                        {{ with .Site.Params.header_headline }}<span class="blog-title">{{ . }}</span>{{ end }}
+                        {{ with .Site.Params.header_sub_headline }}<span class="blog-description">{{ . }}</span>{{ end }}
+                        <a href="{{ "/" | relURL }}"><span class="single-header-title"> {{ .Site.Title }}</span></a>
+                    </div>
                 </div>
-
             </div>
-        </div>
 
+            <!-- Sticky menu bar -->
+            <nav class="single-page-menu" id="singlePageMenu">
+                <div class="single-menu-container">
+                    <!-- Burger menu button for mobile -->
+                    <button class="burger-menu" id="burgerMenu" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                    <!-- Menu items -->
+                    <div class="menu-items" id="menuItems">
+                        <a class="single-menu-btn" href="/">Startseite</a>
+                        <a class="single-menu-btn" href="/#Räumlichkeiten">Was wir bieten</a>
+                        <a class="single-menu-btn" href="/#Digitale-Angebote">Digitale Angebote</a>
+                        <a class="single-menu-btn" href="/#Treffpunkt">Treffpunkt</a>
+                        <a class="single-menu-btn" href="/#Wissenswertes">Wissenswertes</a>
+                        <a class="single-menu-btn" href="/#Anfahrt">Anfahrt</a>
+                        <a class="single-menu-btn" href="/#Kontakt">Kontakt</a>
+                        <a class="single-menu-btn external" href="https://app.ensemble-coworking.de" target="_blank">Buchen&nbsp;<i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <article class="post page single-page-article">
+        <!-- Breadcrumbs -->
         <nav class="breadcrumbs">
             <a href="{{ "/" | relURL }}">Startseite</a>
             {{ if gt (len (split .RelPermalink "/")) 2 }}
@@ -32,12 +61,45 @@
             <span class="current">{{ .Title }}</span>
         </nav>
 
-
-        <h1 class="post-title">{{ .Title | htmlEscape }}</h1>
-        <section class="post-content single">
+        <h1 class="post-title single-page-title">{{ .Title | htmlEscape }}</h1>
+        <section class="post-content single single-page-content">
             {{ .Content }}
         </section>
     </article>
 </main>
-{{ end }}
 
+<script>
+    // Make menu sticky on scroll
+    window.addEventListener('scroll', function() {
+        const menu = document.getElementById('singlePageMenu');
+        const header = document.querySelector('.single-page-header');
+        const headerHeight = header.offsetHeight - menu.offsetHeight;
+
+        if (window.pageYOffset > headerHeight) {
+            menu.classList.add('sticky');
+        } else {
+            menu.classList.remove('sticky');
+        }
+    });
+
+    // Burger menu toggle
+    document.getElementById('burgerMenu').addEventListener('click', function() {
+        const menuItems = document.getElementById('menuItems');
+        const burgerMenu = document.getElementById('burgerMenu');
+
+        menuItems.classList.toggle('open');
+        burgerMenu.classList.toggle('open');
+    });
+
+    // Close menu when clicking on a link (mobile)
+    document.querySelectorAll('.single-menu-btn').forEach(link => {
+        link.addEventListener('click', () => {
+            const menuItems = document.getElementById('menuItems');
+            const burgerMenu = document.getElementById('burgerMenu');
+
+            menuItems.classList.remove('open');
+            burgerMenu.classList.remove('open');
+        });
+    });
+</script>
+{{ end }}
