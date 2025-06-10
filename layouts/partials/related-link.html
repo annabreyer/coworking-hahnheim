@@ -1,0 +1,22 @@
+# layouts/shortcodes/related-link.html
+{{ $page := .Site.GetPage (.Get "url") }}
+{{ if $page }}
+<div class="related-link-card">
+    <div class="related-link-content">
+        <h4><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></h4>
+        <p>{{ $page.Params.description | default $page.Summary | truncate 120 }}</p>
+        {{ with $page.Params.category }}
+        <span class="category-tag">{{ . }}</span>
+        {{ end }}
+    </div>
+    {{ with $page.Params.featured_image }}
+    <div class="related-link-image">
+        <img src="{{ . | relURL }}" alt="{{ $page.Title }}" loading="lazy">
+    </div>
+    {{ end }}
+</div>
+{{ else }}
+<div class="related-link-error">
+    <p>⚠️ Link zu "{{ .Get "url" }}" nicht gefunden</p>
+</div>
+{{ end }}

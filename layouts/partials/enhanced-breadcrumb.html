@@ -1,0 +1,26 @@
+<!-- 2. layouts/partials/enhanced-breadcrumb.html -->
+{{ if not .IsHome }}
+<div class="breadcrumb-nav">
+    <div class="breadcrumb-content">
+        <nav class="breadcrumb">
+            <a href="{{ "/" | relURL }}"><i class="fas fa-home"></i> Startseite</a>
+            {{ $segments := split .RelPermalink "/" }}
+            {{ $url := "" }}
+            {{ range $index, $segment := $segments }}
+            {{ if and (ne $segment "") (lt $index (sub (len $segments) 1)) }}
+            {{ $url = printf "%s/%s" $url $segment }}
+            {{ $page := $.Site.GetPage $url }}
+            <span class="breadcrumb-separator">/</span>
+            {{ if $page }}
+            <a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+            {{ else }}
+            <span>{{ $segment | humanize }}</span>
+            {{ end }}
+            {{ end }}
+            {{ end }}
+            <span class="breadcrumb-separator">/</span>
+            <span class="current">{{ .Title }}</span>
+        </nav>
+    </div>
+</div>
+{{ end }}

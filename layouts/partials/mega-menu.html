@@ -1,0 +1,177 @@
+<!-- 1. layouts/partials/enhanced-header.html -->
+<!-- This replaces the header section in your homepage and adds mega menu -->
+<header class="main-header {{ if .IsHome }}homepage-header{{ else }}single-page-header{{ end }}">
+    <div class="header-content">
+        <a href="{{ "/" | relURL }}" class="logo-section">
+        {{ with resources.Get .Site.Params.header_logo }}
+        <img src="{{ .RelPermalink }}" alt="{{ $.Site.Title }}" id="blog-logo" />
+        {{ end }}
+        <div class="logo-text">
+            <h1 class="blog-title">{{ .Site.Params.header_headline | safeHTML }}</h1>
+            <p class="blog-description">{{ .Site.Params.header_sub_headline | safeHTML }}</p>
+        </div>
+        </a>
+
+        <nav class="main-navigation">
+            <ul class="main-nav">
+                <li class="nav-item">
+                    <a href="{{ "/" | relURL }}" class="nav-link">
+                    <i class="fas fa-home"></i>
+                    Startseite
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#räumlichkeiten" class="nav-link">
+                        <i class="fas fa-laptop"></i>
+                        Was wir bieten
+                        <i class="fas fa-chevron-down dropdown-arrow"></i>
+                    </a>
+                    <div class="mega-menu">
+                        <div class="mega-menu-content">
+                            <div class="menu-section">
+                                <h3>Räumlichkeiten</h3>
+                                <ul class="menu-links">
+                                    <li><a href="/#räumlichkeiten"><i class="fas fa-users"></i>4er-Tisch</a></li>
+                                    <li><a href="/#räumlichkeiten"><i class="fas fa-chair"></i>2er-Tisch</a></li>
+                                    <li><a href="/angebot/lounge-ecke/"><i class="fas fa-couch"></i>Lounge-Ecke</a></li>
+                                    <li><a href="/#räumlichkeiten"><i class="fas fa-coffee"></i>Küche</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu-section">
+                                <h3>Ausstattung</h3>
+                                <ul class="menu-links">
+                                    <li><a href="/#räumlichkeiten"><i class="fas fa-wifi"></i>High-Speed WLAN</a></li>
+                                    <li><a href="/#räumlichkeiten"><i class="fas fa-print"></i>Drucker & Scanner</a></li>
+                                    <li><a href="/#räumlichkeiten"><i class="fas fa-shower"></i>Dusche</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="featured-content">
+                            <h4>💡 Arbeiten wie im Wohnzimmer</h4>
+                            <p>Gemütlichkeit ist unser Leitfaden</p>
+                            <a href="/#räumlichkeiten" class="featured-btn">Entdecken</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#digitale-angebote" class="nav-link">
+                        <i class="fas fa-tools"></i>
+                        Angebote
+                        <i class="fas fa-chevron-down dropdown-arrow"></i>
+                    </a>
+                    <div class="mega-menu">
+                        <div class="mega-menu-content">
+                            <div class="menu-section">
+                                <h3>Arbeitsplätze</h3>
+                                <ul class="menu-links">
+                                    <li><a href="https://app.ensemble-coworking.de" target="_blank"><i class="fas fa-calendar-day"></i>Tagespass</a></li>
+                                    <li><a href="https://app.ensemble-coworking.de" target="_blank"><i class="fas fa-calendar-week"></i>Zehnerkarte</a></li>
+                                    <li><a href="/angebot/lounge-ecke/"><i class="fas fa-couch"></i>Lounge-Ecke</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu-section">
+                                <h3>Services</h3>
+                                <ul class="menu-links">
+                                    <li><a href="/angebot/virtuelles-buro/"><i class="fas fa-building"></i>Virtuelles Büro</a></li>
+                                    <li><a href="/angebot/workshops-treffen/"><i class="fas fa-users"></i>Workshop-Raum</a></li>
+                                    <li><a href="/wissenswertes/coworking-gutschein/"><i class="fas fa-gift"></i>Gutscheine</a></li>
+                                    <li><a href="/#digitale-angebote"><i class="fas fa-comments"></i>Slack-Community</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="featured-content">
+                            <h4>🎯 Virtuelles Büro</h4>
+                            <p>Professionelle Postadresse ab 25€/Monat</p>
+                            <a href="/angebot/virtuelles-buro/" class="featured-btn">Details ansehen</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#wissenswertes" class="nav-link">
+                        <i class="fas fa-lightbulb"></i>
+                        Wissenswertes
+                        <i class="fas fa-chevron-down dropdown-arrow"></i>
+                    </a>
+                    <div class="mega-menu">
+                        <div class="mega-menu-content">
+                            <div class="menu-section">
+                                <h3>Über Coworking</h3>
+                                <ul class="menu-links">
+                                    <li><a href="/wissenswertes/mehr-als-nur-ein-arbeitsplatz/"><i class="fas fa-heart"></i>Mehr als nur ein Arbeitsplatz</a></li>
+                                    <li><a href="/wissenswertes/was-ist-ein-coworking-space/"><i class="fas fa-question-circle"></i>Was ist ein Coworking Space?</a></li>
+                                    <li><a href="/wissenswertes/faq/"><i class="fas fa-info-circle"></i>Häufige Fragen (FAQ)</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu-section">
+                                <h3>Tipps & Ideen</h3>
+                                <ul class="menu-links">
+                                    <li><a href="/wissenswertes/coworking-am-wochenende/"><i class="fas fa-calendar-weekend"></i>Coworking am Wochenende</a></li>
+                                    <li><a href="/wissenswertes/coworking-gutschein/"><i class="fas fa-gift"></i>Gutscheine verschenken</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a href="/rheinhessen/" class="nav-link">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Rheinhessen
+                        <i class="fas fa-chevron-down dropdown-arrow"></i>
+                    </a>
+                    <div class="mega-menu">
+                        <div class="mega-menu-content">
+                            <div class="menu-section">
+                                <h3>Verbandsgemeinden</h3>
+                                <ul class="menu-links">
+                                    <li><a href="/rheinhessen/coworking-rhein-selz/"><i class="fas fa-wine-glass"></i>VG Rhein-Selz</a></li>
+                                    <li><a href="/rheinhessen/coworking-harxheim-gau-bischofsheim/"><i class="fas fa-tree"></i>VG Bodenheim</a></li>
+                                    <li><a href="/rheinhessen/coworking-nieder-olm/"><i class="fas fa-city"></i>VG Nieder-Olm</a></li>
+                                    <li><a href="/rheinhessen/coworking-woerrstadt/"><i class="fas fa-seedling"></i>VG Wörrstadt</a></li>
+                                    <li><a href="/rheinhessen/coworking-wonnegau/"><i class="fas fa-grapes"></i>VG Wonnegau</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu-section">
+                                <h3>Region</h3>
+                                <ul class="menu-links">
+                                    <li><a href="/rheinhessen/"><i class="fas fa-map"></i>Rheinhessen Übersicht</a></li>
+                                    <li><a href="/#anfahrt"><i class="fas fa-bus"></i>Anfahrt & ÖPNV</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="featured-content">
+                            <h4>🍇 Arbeiten im Grünen</h4>
+                            <p>Entdecke Coworking mitten in der Weinregion</p>
+                            <a href="/rheinhessen/" class="featured-btn">Region erkunden</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a href="/#kontakt" class="nav-link">
+                        <i class="fas fa-envelope"></i>
+                        Kontakt
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="https://app.ensemble-coworking.de" class="nav-link booking-btn" target="_blank">
+                        <i class="fas fa-calendar-plus"></i>
+                        Buchen
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Mobile burger menu -->
+            <button class="burger-menu" id="burgerMenu" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </div>
+</header>

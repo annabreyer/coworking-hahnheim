@@ -1,0 +1,78 @@
+<!-- 3. layouts/partials/content-sidebar.html -->
+{{ if and (not .IsHome) (.Params.sidebar_show | default true) }}
+<aside class="sidebar">
+    <h3>{{ .Params.sidebar_title | default "In diesem Bereich" }}</h3>
+
+    <!-- Current section navigation -->
+    {{ $currentSection := .Section }}
+    {{ $currentPage := . }}
+
+    {{ if eq $currentSection "knowledge" }}
+    <div class="sidebar-section">
+        <h4><i class="fas fa-lightbulb"></i>Über Coworking</h4>
+        <ul class="sidebar-links">
+            <li><a href="/wissenswertes/mehr-als-nur-ein-arbeitsplatz/"{{ if eq .RelPermalink "/wissenswertes/mehr-als-nur-ein-arbeitsplatz/" }} class="active"{{ end }}>Mehr als nur ein Arbeitsplatz</a></li>
+            <li><a href="/wissenswertes/was-ist-ein-coworking-space/"{{ if eq .RelPermalink "/wissenswertes/was-ist-ein-coworking-space/" }} class="active"{{ end }}>Was ist ein Coworking Space?</a></li>
+            <li><a href="/wissenswertes/faq/"{{ if eq .RelPermalink "/wissenswertes/faq/" }} class="active"{{ end }}>Häufige Fragen (FAQ)</a></li>
+        </ul>
+    </div>
+
+    <div class="sidebar-section">
+        <h4><i class="fas fa-calendar"></i>Tipps & Ideen</h4>
+        <ul class="sidebar-links">
+            <li><a href="/wissenswertes/coworking-am-wochenende/"{{ if eq .RelPermalink "/wissenswertes/coworking-am-wochenende/" }} class="active"{{ end }}>Coworking am Wochenende</a></li>
+            <li><a href="/wissenswertes/coworking-gutschein/"{{ if eq .RelPermalink "/wissenswertes/coworking-gutschein/" }} class="active"{{ end }}>Gutscheine verschenken</a></li>
+        </ul>
+    </div>
+    {{ end }}
+
+    {{ if eq $currentSection "services" }}
+    <div class="sidebar-section">
+        <h4><i class="fas fa-tools"></i>Unsere Angebote</h4>
+        <ul class="sidebar-links">
+            <li><a href="/angebot/lounge-ecke/"{{ if eq .RelPermalink "/angebot/lounge-ecke/" }} class="active"{{ end }}>Lounge-Ecke</a></li>
+            <li><a href="/angebot/virtuelles-buro/"{{ if eq .RelPermalink "/angebot/virtuelles-buro/" }} class="active"{{ end }}>Virtuelles Büro</a></li>
+            <li><a href="/angebot/workshops-treffen/"{{ if eq .RelPermalink "/angebot/workshops-treffen/" }} class="active"{{ end }}>Workshop-Raum</a></li>
+        </ul>
+    </div>
+    {{ end }}
+
+    {{ if eq $currentSection "rheinhessen" }}
+    <div class="sidebar-section">
+        <h4><i class="fas fa-map"></i>Verbandsgemeinden</h4>
+        <ul class="sidebar-links">
+            <li><a href="/rheinhessen/coworking-rhein-selz/"{{ if eq .RelPermalink "/rheinhessen/coworking-rhein-selz/" }} class="active"{{ end }}>VG Rhein-Selz</a></li>
+            <li><a href="/rheinhessen/coworking-harxheim-gau-bischofsheim/"{{ if eq .RelPermalink "/rheinhessen/coworking-harxheim-gau-bischofsheim/" }} class="active"{{ end }}>VG Bodenheim</a></li>
+            <li><a href="/rheinhessen/coworking-nieder-olm/"{{ if eq .RelPermalink "/rheinhessen/coworking-nieder-olm/" }} class="active"{{ end }}>VG Nieder-Olm</a></li>
+            <li><a href="/rheinhessen/coworking-woerrstadt/"{{ if eq .RelPermalink "/rheinhessen/coworking-woerrstadt/" }} class="active"{{ end }}>VG Wörrstadt</a></li>
+            <li><a href="/rheinhessen/coworking-wonnegau/"{{ if eq .RelPermalink "/rheinhessen/coworking-wonnegau/" }} class="active"{{ end }}>VG Wonnegau</a></li>
+        </ul>
+    </div>
+    {{ end }}
+
+    <!-- Cross-section recommendations -->
+    <div class="sidebar-section">
+        <h4><i class="fas fa-star"></i>Empfehlungen</h4>
+        <ul class="sidebar-links">
+            {{ if ne $currentSection "services" }}
+            <li><a href="/angebot/">Unsere Angebote</a></li>
+            {{ end }}
+            {{ if ne $currentSection "knowledge" }}
+            <li><a href="/wissenswertes/">Wissenswertes</a></li>
+            {{ end }}
+            {{ if ne $currentSection "rheinhessen" }}
+            <li><a href="/rheinhessen/">Rheinhessen</a></li>
+            {{ end }}
+        </ul>
+    </div>
+
+    <!-- Contact CTA -->
+    <div class="sidebar-cta">
+        <div class="cta-content">
+            <h4>Fragen?</h4>
+            <p>Kontaktieren Sie uns für weitere Informationen.</p>
+            <a href="/#kontakt" class="cta-button">Kontakt aufnehmen</a>
+        </div>
+    </div>
+</aside>
+{{ end }}

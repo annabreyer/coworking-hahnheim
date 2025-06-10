@@ -1,0 +1,136 @@
+<!-- 4. layouts/partials/related-articles.html -->
+{{ if and (not .IsHome) (.Params.show_related | default true) }}
+<div class="related-articles">
+    <h3>Das könnte Sie auch interessieren</h3>
+    <div class="related-grid">
+
+        <!-- Knowledge section related articles -->
+        {{ if eq .Section "knowledge" }}
+        {{ if eq .File.TranslationBaseName "mehr-als-nur-ein-arbeitsplatz" }}
+        <div class="related-card">
+            <h4>Was ist ein Coworking Space?</h4>
+            <p>Eine umfassende Einführung in das Konzept des Coworkings und wie es funktioniert.</p>
+            <a href="/wissenswertes/was-ist-ein-coworking-space/">Weiterlesen →</a>
+        </div>
+        <div class="related-card">
+            <h4>Coworking am Wochenende</h4>
+            <p>Perfekt für Mamas, die Ruhe und Fokus brauchen, während der Papa die Kinder betreut.</p>
+            <a href="/wissenswertes/coworking-am-wochenende/">Weiterlesen →</a>
+        </div>
+        <div class="related-card">
+            <h4>Unsere Lounge-Ecke</h4>
+            <p>Entspannen, kreativ sein, arbeiten – eine gemütliche Alternative zu klassischen Coworking-Plätzen.</p>
+            <a href="/angebot/lounge-ecke/">Weiterlesen →</a>
+        </div>
+        {{ else if eq .File.TranslationBaseName "was-ist-ein-coworking-space" }}
+        <div class="related-card">
+            <h4>Coworking: Mehr als nur ein Arbeitsplatz</h4>
+            <p>Entdecken Sie die Philosophie hinter unserem Coworking-Space in Hahnheim.</p>
+            <a href="/wissenswertes/mehr-als-nur-ein-arbeitsplatz/">Weiterlesen →</a>
+        </div>
+        <div class="related-card">
+            <h4>Häufige Fragen (FAQ)</h4>
+            <p>Antworten auf die wichtigsten Fragen rund um Coworking Hahnheim.</p>
+            <a href="/wissenswertes/faq/">Weiterlesen →</a>
+        </div>
+        <div class="related-card">
+            <h4>Virtuelles Büro</h4>
+            <p>Professionelle Postadresse für Ihr Unternehmen ab 25€/Monat.</p>
+            <a href="/angebot/virtuelles-buro/">Weiterlesen →</a>
+        </div>
+        {{ else }}
+        <!-- Default knowledge section related articles -->
+        <div class="related-card">
+            <h4>Coworking: Mehr als nur ein Arbeitsplatz</h4>
+            <p>Entdecken Sie die Philosophie hinter unserem Coworking-Space.</p>
+            <a href="/wissenswertes/mehr-als-nur-ein-arbeitsplatz/">Weiterlesen →</a>
+        </div>
+        <div class="related-card">
+            <h4>Was ist ein Coworking Space?</h4>
+            <p>Eine umfassende Einführung in das Konzept des Coworkings.</p>
+            <a href="/wissenswertes/was-ist-ein-coworking-space/">Weiterlesen →</a>
+        </div>
+        <div class="related-card">
+            <h4>Unsere Angebote</h4>
+            <p>Entdecken Sie alle Services von Coworking Hahnheim.</p>
+            <a href="/angebot/">Weiterlesen →</a>
+        </div>
+        {{ end }}
+        {{ end }}
+
+        <!-- Services section related articles -->
+        {{ if eq .Section "services" }}
+        {{ if eq .File.TranslationBaseName "lounge-ecke" }}
+        <div class="related-card">
+            <h4>Coworking am Wochenende</h4>
+            <p>Nutzen Sie unsere Lounge auch am Wochenende für entspanntes Arbeiten.</p>
+            <a href="/wissenswertes/coworking-am-wochenende/">Weiterlesen →</a>
+        </div>
+        <div class="related-card">
+            <h4>Virtuelles Büro</h4>
+            <p>Professionelle Postadresse für Ihr Unternehmen.</p>
+            <a href="/angebot/virtuelles-buro/">Weiterlesen →</a>
+        </div>
+        <div class="related-card">
+            <h4>Workshop-Raum</h4>
+            <p>Mieten Sie unseren Raum für Meetings und Veranstaltungen.</p>
+            <a href="/angebot/workshops-treffen/">Weiterlesen →</a>
+        </div>
+        {{ else if eq .File.TranslationBaseName "virtuelles-buro" }}
+        <div class="related-card">
+            <h4>Lounge-Ecke</h4>
+            <p>Entspannen, kreativ sein, arbeiten – besser als ein Café!</p>
+            <a href="/angebot/lounge-ecke/">Weiterlesen →</a>
+        </div>
+        <div class="related-card">
+            <h4>Was ist ein Coworking Space?</h4>
+            <p>Erfahren Sie mehr über das Konzept des Coworkings.</p>
+            <a href="/wissenswertes/was-ist-ein-coworking-space/">Weiterlesen →</a>
+        </div>
+        <div class="related-card">
+            <h4>Workshop-Raum</h4>
+            <p>Flexibel buchbarer Raum für Events und Meetings.</p>
+            <a href="/angebot/workshops-treffen/">Weiterlesen →</a>
+        </div>
+        {{ else }}
+        <!-- Default services related articles -->
+        <div class="related-card">
+            <h4>Lounge-Ecke</h4>
+            <p>Entspannen, kreativ sein, arbeiten – besser als ein Café!</p>
+            <a href="/angebot/lounge-ecke/">Weiterlesen →</a>
+        </div>
+        <div class="related-card">
+            <h4>Virtuelles Büro</h4>
+            <p>Professionelle Postadresse ab 25€/Monat.</p>
+            <a href="/angebot/virtuelles-buro/">Weiterlesen →</a>
+        </div>
+        <div class="related-card">
+            <h4>Wissenswertes</h4>
+            <p>Alles über Coworking und unseren Space.</p>
+            <a href="/wissenswertes/">Weiterlesen →</a>
+        </div>
+        {{ end }}
+        {{ end }}
+
+        <!-- Rheinhessen section related articles -->
+        {{ if eq .Section "rheinhessen" }}
+        <div class="related-card">
+            <h4>Rheinhessen Übersicht</h4>
+            <p>Arbeiten im Herzen der größten Weinregion Deutschlands.</p>
+            <a href="/rheinhessen/">Weiterlesen →</a>
+        </div>
+        <div class="related-card">
+            <h4>Unsere Angebote</h4>
+            <p>Entdecken Sie alle Services von Coworking Hahnheim.</p>
+            <a href="/angebot/">Weiterlesen →</a>
+        </div>
+        <div class="related-card">
+            <h4>Coworking: Mehr als nur ein Arbeitsplatz</h4>
+            <p>Die Philosophie hinter unserem Coworking-Space.</p>
+            <a href="/wissenswertes/mehr-als-nur-ein-arbeitsplatz/">Weiterlesen →</a>
+        </div>
+        {{ end }}
+
+    </div>
+</div>
+{{ end }}

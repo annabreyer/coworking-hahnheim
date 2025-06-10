@@ -1,105 +1,120 @@
+<!-- 5. MODIFIED layouts/_default/single.html -->
 {{ define "main" }}
-<main class="content page-template page-{{ .Slug }}" role="main">
-    <!-- New single page header with full width -->
-    <header class="single-page-header">
-        <div class="single-header-content">
-            <div class="single-header-top">
-                <div id="single-post-head-content">
-                    <div id="single-post-header-title">
-                        <a href="/" class="header-logo">
-                            <img id="blog-logo" alt="" src="/images/ensemble-logo-silverpink.svg" />
-                        </a>
-                        {{ with .Site.Params.header_headline }}<span class="blog-title">{{ . }}</span>{{ end }}
-                        {{ with .Site.Params.header_sub_headline }}<span class="blog-description">{{ . }}</span>{{ end }}
-                        <a href="{{ "/" | relURL }}"><span class="single-header-title"> {{ .Site.Title }}</span></a>
-                    </div>
+<main class="content single-page" role="main">
+
+    <!-- Include enhanced header -->
+    {{ partial "enhanced-header.html" . }}
+
+    <!-- Include breadcrumb -->
+    {{ partial "enhanced-breadcrumb.html" . }}
+
+    <!-- Content Area with Sidebar -->
+    <div class="content-area">
+        <!-- Include sidebar -->
+        {{ partial "content-sidebar.html" . }}
+
+        <!-- Main Content -->
+        <article class="main-content">
+            <div class="content-header">
+                <h1 class="post-title">{{ .Title | htmlEscape }}</h1>
+                {{ if .Params.show_meta | default true }}
+                <div class="content-meta">
+                    {{ with .Params.author | default .Site.Params.author }}
+                    <span><i class="fas fa-user"></i>{{ . }}</span>
+                    {{ end }}
+                    {{ with .ReadingTime }}
+                    <span><i class="fas fa-clock"></i>{{ . }} Min. Lesezeit</span>
+                    {{ end }}
+                    {{ with .Params.category }}
+                    <span><i class="fas fa-tag"></i>{{ . }}</span>
+                    {{ end }}
                 </div>
+                {{ end }}
             </div>
 
-            <!-- Sticky menu bar -->
-            <nav class="single-page-menu" id="singlePageMenu">
-                <div class="single-menu-container">
-                    <!-- Burger menu button for mobile -->
-                    <button class="burger-menu" id="burgerMenu" aria-label="Menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
+            <div class="content-body">
+                {{ .Content }}
+            </div>
 
-                    <!-- Menu items -->
-                    <div class="menu-items" id="menuItems">
-                        <a class="single-menu-btn" href="/">Startseite</a>
-                        <a class="single-menu-btn" href="/#räumlichkeiten">Was wir bieten</a>
-                        <a class="single-menu-btn" href="/#digitale-angebote">Digitale Angebote</a>
-                        <a class="single-menu-btn" href="/#treffpunkt">Treffpunkt</a>
-                        <a class="single-menu-btn" href="/#wissenswertes">Wissenswertes</a>
-                        <a class="single-menu-btn" href="/#anfahrt">Anfahrt</a>
-                        <a class="single-menu-btn" href="/#kontakt">Kontakt</a>
-                        <a class="single-menu-btn external" href="https://app.ensemble-coworking.de" target="_blank">Buchen&nbsp;<i class="fa fa-external-link"></i></a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <article class="post page single-page-article">
-        <!-- Breadcrumbs -->
-        <nav class="breadcrumbs">
-            <a href="{{ "/" | relURL }}">Startseite</a>
-            {{ if gt (len (split .RelPermalink "/")) 2 }}
-            {{ $segments := split .RelPermalink "/" }}
-            {{ $path := "" }}
-            {{ range $index, $segment := $segments }}
-            {{ if and (ne $segment "") (lt $index (sub (len $segments) 2)) }}
-            {{ $path = printf "%s/%s" $path $segment }}
-            <span>/</span>
-            <a href="{{ $path | relURL }}">{{ $segment | humanize }}</a>
-            {{ end }}
-            {{ end }}
-            {{ end }}
-            <span>/</span>
-            <span class="current">{{ .Title }}</span>
-        </nav>
-
-        <h1 class="post-title single-page-title">{{ .Title | htmlEscape }}</h1>
-        <section class="post-content single single-page-content">
-            {{ .Content }}
-        </section>
-    </article>
+            <!-- Include related articles -->
+            {{ partial "related-articles.html" . }}
+        </article>
+    </div>
 </main>
 
+<!-- Enhanced JavaScript -->
 <script>
-    // Make menu sticky on scroll
-    window.addEventListener('scroll', function() {
-        const menu = document.getElementById('singlePageMenu');
-        const header = document.querySelector('.single-page-header');
-        const headerHeight = header.offsetHeight - menu.offsetHeight;
+    document.addEventListener('DOMContentLoaded', function() {
+        // Mega menu functionality
+        const navItems = document.querySelectorAll('.nav-item');
+        navItems.forEach(item => {
+            const menu = item.querySelector('.mega-menu');
+            if (menu) {
+                let timeout;
 
-        if (window.pageYOffset > headerHeight) {
-            menu.classList.add('sticky');
-        } else {
-            menu.classList.remove('sticky');
-        }
-    });
+                item.addEventListener('mouseenter', function() {
+                    clearTimeout(timeout);
+                    menu.style.opacity = '1';
+                    menu.style.visibility = 'visible';
+                });
 
-    // Burger menu toggle
-    document.getElementById('burgerMenu').addEventListener('click', function() {
-        const menuItems = document.getElementById('menuItems');
-        const burgerMenu = document.getElementById('burgerMenu');
-
-        menuItems.classList.toggle('open');
-        burgerMenu.classList.toggle('open');
-    });
-
-    // Close menu when clicking on a link (mobile)
-    document.querySelectorAll('.single-menu-btn').forEach(link => {
-        link.addEventListener('click', () => {
-            const menuItems = document.getElementById('menuItems');
-            const burgerMenu = document.getElementById('burgerMenu');
-
-            menuItems.classList.remove('open');
-            burgerMenu.classList.remove('open');
+                item.addEventListener('mouseleave', function() {
+                    timeout = setTimeout(() => {
+                        menu.style.opacity = '0';
+                        menu.style.visibility = 'hidden';
+                    }, 200);
+                });
+            }
         });
+
+        // Mobile menu toggle
+        const burgerMenu = document.getElementById('burgerMenu');
+        const mainNav = document.querySelector('.main-nav');
+
+        if (burgerMenu) {
+            burgerMenu.addEventListener('click', function() {
+                mainNav.classList.toggle('mobile-open');
+                burgerMenu.classList.toggle('open');
+            });
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Reading progress indicator
+        function updateReadingProgress() {
+            const article = document.querySelector('.main-content');
+            if (!article) return;
+
+            const scrolled = window.pageYOffset;
+            const articleHeight = article.offsetHeight;
+            const windowHeight = window.innerHeight;
+            const progress = Math.min(scrolled / (articleHeight - windowHeight), 1);
+
+            let progressBar = document.querySelector('.reading-progress');
+            if (!progressBar) {
+                progressBar = document.createElement('div');
+                progressBar.className = 'reading-progress';
+                document.body.appendChild(progressBar);
+            }
+
+            progressBar.style.width = (progress * 100) + '%';
+        }
+
+        // Update reading progress on scroll
+        window.addEventListener('scroll', updateReadingProgress);
+        updateReadingProgress();
     });
 </script>
 {{ end }}
