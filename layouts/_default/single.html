@@ -32,7 +32,7 @@
                         <a class="single-menu-btn" href="/#räumlichkeiten">Was wir bieten</a>
                         <a class="single-menu-btn" href="/#digitale-angebote">Digitale Angebote</a>
                         <a class="single-menu-btn" href="/#treffpunkt">Treffpunkt</a>
-                        <a class="single-menu-btn" href="/#wissenswertes">Wissenswertes</a>
+                        <a class="single-menu-btn" href="/wissenswertes">Wissenswertes</a>
                         <a class="single-menu-btn" href="/#anfahrt">Anfahrt</a>
                         <a class="single-menu-btn" href="/#kontakt">Kontakt</a>
                         <a class="single-menu-btn external" href="https://app.ensemble-coworking.de" target="_blank">Buchen&nbsp;<i class="fa fa-external-link"></i></a>
@@ -65,6 +65,12 @@
         <section class="post-content single single-page-content">
             {{ .Content }}
         </section>
+        {{ if not .Params.hide_booking }}
+        <aside class="booking-cta">
+            <p class="booking-cta-heading">Lust, bei uns zu arbeiten?</p>
+            <a class="booking-cta-btn" href="https://app.ensemble-coworking.de" target="_blank" rel="noopener">Jetzt buchen&nbsp;<i class="fa fa-external-link"></i></a>
+        </aside>
+        {{ end }}
     </article>
 </main>
 

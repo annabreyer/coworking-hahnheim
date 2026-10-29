@@ -4,6 +4,12 @@ weight: 7
 header_menu: true
 ---
 
+#### Adresse
+Ensemble Coworking Hahnheim  
+Bahnhofstr. 9  
+55278 Hahnheim  
+[In Google Maps öffnen](https://www.google.com/maps/search/?api=1&query=Bahnhofstr.+9,+55278+Hahnheim)
+
 #### Öffentliche Verkehrsmittel
 Die nächste Bushaltestelle ist Bahnhofstraße, Hahnheim, die von den Buslinien **652** und **660** aus Mainz angefahren wird.
 Zusätzlich gibt es die Haltestelle Freier Platz, die mit der Linie **662** aus Nierstein/Oppenheim erreichbar ist.

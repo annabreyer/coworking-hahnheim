@@ -1,4 +1,5 @@
 ---
+hide_booking: true
 title: "Impressum"
 url: "/impressum/"
 ---

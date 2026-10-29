@@ -644,3 +644,35 @@ h6 {
         margin-top: 60px;
     }
 }
+
+/* Booking call-to-action below single page content */
+.booking-cta {
+    margin: 4rem auto 2rem;
+    padding: 2rem 1.5rem;
+    max-width: 600px;
+    text-align: center;
+    border-top: 1px solid var(--silver-pink);
+}
+
+.booking-cta-heading {
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+}
+
+.booking-cta-btn {
+    display: inline-block;
+    padding: 0.9rem 2rem;
+    border-radius: 10px;
+    background: var(--highlight-inverse);
+    color: var(--highlight-inverse-contrast);
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.booking-cta-btn:hover {
+    background: var(--highlight);
+    color: var(--dark-gray);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(199, 169, 174, 0.4);
+}
