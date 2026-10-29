@@ -1,4 +1,5 @@
 ---
+hide_booking: true
 title: "Datenschutz"
 url: "/datenschutz/"
 ---
@@ -259,13 +260,6 @@ Kommunikationswege, wie z. B. E-Mail oder Telefon, an.
 
 Weitere Informationen zur Datenverarbeitung durch WhatsApp Business finden Sie in der Datenschutzerklärung von WhatsApp: https://www.whatsapp.com/legal/privacy-policy-eea/.
 
-
-**Slack**  
-Für die interne Kommunikation im Coworking-Bereich nutzen wir Slack, einen Dienst der Salesforce, Inc., Salesforce Tower, 
-415 Mission Street, 3rd Floor, San Francisco, CA 94105, USA. Slack kann personenbezogene Daten wie Nutzungsdaten und 
-Kommunikationsinhalte verarbeiten. Die Übermittlung von Daten in die USA erfolgt auf Grundlage von Standardvertragsklauseln 
-gemäß Art. 46 DSGVO. Weitere Informationen zur Datenverarbeitung durch Slack finden Sie hier: https://slack.com/legal/privacy-policy.
-Slack wird ausschließlich für die interne Kommunikation im Coworking-Bereich genutzt und steht nicht für externe Kommunikation zur Verfügung.
 
 Hinweis zur Datenverarbeitung durch Drittanbieter
 

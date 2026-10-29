@@ -1,4 +1,5 @@
 ---
+hide_booking: true
 url: "/angebot/lounge-ecke/"
 title: "Entspannen, kreativ sein, arbeiten – besser als ein Café!"
 description: "Entdecke die gemütliche Lounge-Ecke in Hahnheim – eine entspannte Alternative zu klassischen Coworking-Plätzen oder Cafés. Perfekt zum Arbeiten, Entspannen oder für kreative Hobbies wie Häkeln, Lesen oder Serien schauen. Genieß eine ruhige Atmosphäre mit Kaffee, Tee und Wasser inklusive."

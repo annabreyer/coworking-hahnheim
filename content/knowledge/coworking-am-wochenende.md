@@ -1,4 +1,5 @@
 ---
+hide_booking: true
 url: "/wissenswertes/coworking-am-wochenende/"
 title: "Coworking am Wochenende – Deine Zeit für Fokus und Entlastung"
 description: "Coworking am Wochenende – Dein Rückzugsort in Hahnheim. Perfekt für Mamas, die Ruhe und Fokus brauchen, während der Papa die Kinder betreut. Egal ob Kursarbeiten korrigieren, Bilder sortieren oder kreatives Arbeiten – hier hast Du Zeit für Dich."

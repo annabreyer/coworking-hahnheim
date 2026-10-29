@@ -22,7 +22,7 @@ Ein Coworking Space muss nicht perfekt durchgestylt sein, um effektiv zu funktio
 
 1.	**Arbeitsplätze mit bequemen Möbeln**: Unsere Arbeitsplätze sind mit bequemen Stühlen und großzügigen Tischen ausgestattet – perfekt für lange und konzentrierte Arbeitstage.
 2.	**Schnelles Internet**: Für reibungsloses Arbeiten bieten wir dir eine stabile und zuverlässige Internetverbindung.
-3.	**Unsere Tarife**: Du kannst zwischen verschiedenen Optionen wählen: Tages- und Halbtagskarten für spontane Besuche oder ein Monatsabo für regelmäßiges Arbeiten mit einem fest zugewiesenen Arbeitsplatz.
+3.	**Unsere [Tarife](https://app.ensemble-coworking.de)**: Du kannst zwischen verschiedenen Optionen wählen: Tages- und Halbtagskarten für spontane Besuche oder ein Monatsabo für regelmäßiges Arbeiten mit einem fest zugewiesenen Arbeitsplatz.
 4.	**Austauschmöglichkeiten**: Neben der Arbeit steht bei uns auch die Gemeinschaft im Vordergrund – sei es bei einem Kaffee in der Küche oder bei Gesprächen am Mittagstisch.
 5.	**Meetingraum in Planung**: Obwohl wir aktuell keinen Meetingraum haben, planen wir, diesen bei regelmäßiger Nachfrage einzurichten. Wir hören auf die Bedürfnisse unserer Community und entwickeln uns stetig weiter.
 
@@ -52,3 +52,5 @@ oder einfach ein freundliches Wort.
 Unser Ziel ist es, ein Ort zu sein, an dem du nicht nur produktiv arbeiten, sondern dich auch willkommen und inspiriert fühlen kannst.
 
 Komm vorbei und erlebe, was Coworking in Hahnheim für dich bereithält!
+
+{{< buchen text="Arbeitsplatz buchen" >}}

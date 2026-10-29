@@ -16,6 +16,8 @@ Arbeite produktiv in einer ruhigen und inspirierenden Umgebung, mitten im Grüne
 - Eine offene Gemeinschaftsküche für Austausch und Pausen.
 - Flexible Tarife, angepasst an Deine Bedürfnisse.
 
+{{< buchen text="Arbeitsplatz buchen" >}}
+
 ## [Virtuelles Büro – Deine professionelle Geschäftsadresse](/angebot/virtuelles-buro/ "Virtuelles Büro – Deine professionelle Geschäftsadresse")
 
 Brauchst Du eine seriöse Postadresse für Dein Unternehmen oder Dein Impressum? Unser virtuelles Büro bietet:
