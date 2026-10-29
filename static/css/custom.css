@@ -645,6 +645,27 @@ h6 {
     }
 }
 
+/* Booking entry in the homepage's fixed navigation */
+a.fn-item.fn-booking {
+    opacity: 1;
+    margin-top: 0.5em;
+    padding: 0.2em 0.6em;
+    border-radius: 8px;
+    background: var(--highlight-inverse);
+    color: var(--highlight-inverse-contrast);
+}
+
+a.fn-item.fn-booking:hover {
+    background: var(--highlight);
+    color: var(--dark-gray);
+}
+
+@media only screen and (max-width: 1130px) {
+    a.fn-item.fn-booking {
+        margin-top: 0;
+    }
+}
+
 /* Booking call-to-action below single page content */
 .booking-cta {
     margin: 4rem auto 2rem;

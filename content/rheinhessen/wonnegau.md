@@ -43,5 +43,7 @@ Wir arbeiten daran, Dir schon bald High-Speed-Internet bereitzustellen. Bis dahi
 
 #### Werde Teil unserer Coworking-Community!
 
-Ob Westhofen, Bechtheim oder ein anderer Ort der VG Wonnegau – unser Coworking-Space in Hahnheim ist die perfekte Alternative zum Homeoffice. Klick hier, um mehr über unsere Angebote zu erfahren und Deinen Platz zu sichern. Wir freuen uns auf Dich!
-Klick [hier](/), um mehr über unsere Angebote zu erfahren und Deinen Platz zu sichern. Wir freuen uns auf Dich!
+Ob Westhofen, Bechtheim oder ein anderer Ort der VG Wonnegau – unser Coworking-Space in Hahnheim ist die perfekte Alternative zum Homeoffice.
+Klick [hier](/), um mehr über unsere Angebote zu erfahren, oder sichere Dir direkt Deinen Platz. Wir freuen uns auf Dich!
+
+{{< buchen text="Platz buchen" >}}

@@ -56,4 +56,6 @@ Wir arbeiten daran, Dir schon bald High-Speed-Internet zur Verfügung zu stellen
 #### Bereit, Teil unserer Coworking-Community zu werden?
 
 Egal, ob Du aus Oppenheim, Nierstein, Mommenheim oder Friesenheim kommst – unser Coworking-Space in Hahnheim bietet Dir mehr als nur einen Arbeitsplatz. 
-Klick [hier](/), um mehr über unsere Angebote zu erfahren und Deinen Platz zu sichern. Wir freuen uns auf Dich!
+Klick [hier](/), um mehr über unsere Angebote zu erfahren, oder sichere Dir direkt Deinen Platz. Wir freuen uns auf Dich!
+
+{{< buchen text="Platz buchen" >}}

@@ -40,5 +40,7 @@ Egal, ob Du Kursarbeiten korrigieren, Bilder sortieren oder einfach Deinen Kopf 
 
 **Jetzt ausprobieren**
 
-Buche Deinen Platz am Wochenende und gönn Dir die Zeit, die Du verdienst. Schreib uns eine Nachricht oder schau auf unserer Website vorbei, um mehr zu erfahren.
+[Buche Deinen Platz am Wochenende](https://app.ensemble-coworking.de) und gönn Dir die Zeit, die Du verdienst. Bei Fragen schreib uns einfach eine Nachricht.
+
+{{< buchen text="Platz am Wochenende buchen" >}}
 

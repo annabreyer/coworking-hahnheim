@@ -39,6 +39,8 @@ Die Lounge ist perfekt, wenn du:
 
 Die Nutzung der Lounge-Ecke wird zu den gleichen flexiblen Tarifen wie unser Coworking-Bereich angeboten. Egal, ob du die Lounge zum Arbeiten oder für kreative Pausen nutzt – volle Flexibilität ist garantiert.
 
+{{< buchen text="Lounge buchen" >}}
+
 #### Ein bisschen extra Komfort
 
 Bei uns sind Kaffee, Tee und Wasser inklusive – so kannst du dich ganz auf deine Projekte oder dein Hobby konzentrieren. Möchtest du dir etwas Besonderes gönnen? Bei frühzeitiger Buchung kannst du über den Dorfladen Boos in Hahnheim ein Stück Kuchen oder Gebäck vorbestellen, das direkt für dich bereitsteht.

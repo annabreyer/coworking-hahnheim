@@ -17,3 +17,7 @@ Nutze unsere Adresse als repräsentative Geschäftsadresse und bleibe flexibel. 
 Werde Teil unserer aktiven Slack-Community und vernetze dich mit Gleichgesinnten. Tausche dich aus, finde Inspiration, stelle Fragen und bleibe immer auf dem Laufenden über Events und Neuigkeiten aus unserem Coworking Space.
 
 Auch wenn du nicht vor Ort bist, bist du bei uns Teil der Gemeinschaft!
+
+Und wenn du doch mal vor Ort arbeiten möchtest:
+
+{{< buchen text="Arbeitsplatz buchen" >}}

@@ -50,4 +50,6 @@ High-Speed-Internet ist bereits in Planung und wird bald verfügbar sein. Bis da
 #### Jetzt Teil unserer Coworking-Community werden!
 
 Egal, ob Du in Wörrstadt, Saulheim, Armsheim oder einer anderen Gemeinde der VG Wörrstadt wohnst – unser Coworking-Space in Hahnheim bietet Dir eine inspirierende Umgebung, um produktiv zu arbeiten. 
-Klick [hier](/), um mehr über unsere Angebote zu erfahren und Deinen Platz zu sichern. Wir freuen uns auf Dich!
+Klick [hier](/), um mehr über unsere Angebote zu erfahren, oder sichere Dir direkt Deinen Platz. Wir freuen uns auf Dich!
+
+{{< buchen text="Platz buchen" >}}

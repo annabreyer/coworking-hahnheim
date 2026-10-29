@@ -57,4 +57,6 @@ Wir arbeiten daran, Dir schon bald High-Speed-Internet bereitzustellen. Bis dahi
 #### Jetzt Teil unserer Coworking-Community werden!
 
 Egal, ob Du in Harxheim, Gau-Bischofsheim oder einer anderen Gemeinde der VG Bodenheim wohnst – unser Coworking-Space in Hahnheim ist die perfekte Wahl für produktives Arbeiten. 
-Klick [hier](/), um mehr über unsere Angebote zu erfahren und Deinen Platz zu sichern. Wir freuen uns auf Dich!
+Klick [hier](/), um mehr über unsere Angebote zu erfahren, oder sichere Dir direkt Deinen Platz. Wir freuen uns auf Dich!
+
+{{< buchen text="Platz buchen" >}}

@@ -125,6 +125,7 @@
             {{ $fnav_title := "Start" }}{{ with .Params.nav_to_top_title }}{{ $fnav_title = . }}{{ end }}
             <a class='fn-item' item_index='{{ (add $last_index_val 2) }}' href='./#site-head'>{{ $fnav_title | safeHTML }}</a>
             {{ end }}
+            <a class='fn-item fn-booking' href='https://app.ensemble-coworking.de' target='_blank' rel='noopener'>Buchen&nbsp;<i class="fa fa-external-link"></i></a>
         </div>
 
         <!-- Render single-page content -->

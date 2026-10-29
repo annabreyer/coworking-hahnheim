@@ -61,4 +61,8 @@ Die Mikrowelle, der Backofen und auch der Herd dürfen auch mit benutzt werden.
 
 Unser gemütlicher Esstisch lädt dazu ein, gemeinsam eine entspannte Essenspause zu machen. Hier kommen wir zusammen, tauschen uns aus und genießen eine kleine Auszeit vom Arbeitsalltag. Egal ob mitgebrachte Snacks, eine warme Mahlzeit oder einfach nur ein Kaffee – der Esstisch ist das Herzstück für gemeinsame Momente und gute Gespräche.
 
+---
 
+Lust bekommen, bei uns zu arbeiten?
+
+{{< buchen text="Arbeitsplatz buchen" >}}

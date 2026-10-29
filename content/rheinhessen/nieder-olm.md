@@ -48,4 +48,6 @@ High-Speed-Internet ist bereits in Planung. Bis dahin kannst Du Dich auf die ent
 #### Jetzt Teil unserer Coworking-Community werden!
 
 Ob Nieder-Olm, Sörgenloch, Zornheim oder eine andere Gemeinde in der VG Nieder-Olm – unser Coworking-Space in Hahnheim ist Dein Ort für produktives Arbeiten und Austausch. 
-Klick [hier](/), um mehr über unsere Angebote zu erfahren und Deinen Platz zu sichern. Wir freuen uns auf Dich!
+Klick [hier](/), um mehr über unsere Angebote zu erfahren, oder sichere Dir direkt Deinen Platz. Wir freuen uns auf Dich!
+
+{{< buchen text="Platz buchen" >}}
