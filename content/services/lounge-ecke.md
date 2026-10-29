@@ -1,4 +1,5 @@
 ---
+hide_booking: true
 url: "/angebot/lounge-ecke/"
 title: "Entspannen, kreativ sein, arbeiten – besser als ein Café!"
 description: "Entdecke die gemütliche Lounge-Ecke in Hahnheim – eine entspannte Alternative zu klassischen Coworking-Plätzen oder Cafés. Perfekt zum Arbeiten, Entspannen oder für kreative Hobbies wie Häkeln, Lesen oder Serien schauen. Genieß eine ruhige Atmosphäre mit Kaffee, Tee und Wasser inklusive."
@@ -38,8 +39,6 @@ Die Lounge ist perfekt, wenn du:
 #### Preise und Konditionen
 
 Die Nutzung der Lounge-Ecke wird zu den gleichen flexiblen Tarifen wie unser Coworking-Bereich angeboten. Egal, ob du die Lounge zum Arbeiten oder für kreative Pausen nutzt – volle Flexibilität ist garantiert.
-
-{{< buchen text="Lounge buchen" >}}
 
 #### Ein bisschen extra Komfort
 
